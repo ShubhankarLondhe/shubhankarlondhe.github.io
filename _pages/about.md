@@ -28,7 +28,7 @@ latest_posts:
 ---
 
 Hello there!
-\n
+
 I am Shubhankar Londhe, a computational biology PhD student with [Prof. Julien Gagneur](https://www.cs.cit.tum.de/cmm/home/) at the Technical University of Munich (TUM). Interested in and currently working on understanding the effect of [rare] variants in complex traits and diseases using large biomedical datasets.
-\n
+
 Before that, I completed my Bachelor's and Master's in Science at the Indian Institute of Science Education and Research (IISER), Pune, in India.
