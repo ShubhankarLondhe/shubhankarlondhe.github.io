@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD student</p>
-    <p>Computational Molecular Medicine</p>
+    <p>Gagneur Lab</p>
     <p>Technical University of Munich</p>
     <p>Helmholtz Munich</p>
 
