@@ -9,9 +9,10 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>PhD student</p>
+    <p>Computational Molecular Medicine</p>
+    <p>Technical University of Munich</p>
+    <p>Helmholtz Munich</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -29,6 +30,6 @@ latest_posts:
 
 Hello there!
 
-I am Shubhankar Londhe, a computational biology PhD student with [Prof. Julien Gagneur](https://www.cs.cit.tum.de/cmm/home/) at the Technical University of Munich (TUM). Interested in and currently working on understanding the effect of [rare] variants in complex traits and diseases using large biomedical datasets.
+I am Shubhankar Londhe, a computational biology PhD student with [Prof. Julien Gagneur](https://www.cs.cit.tum.de/cmm/home/) at the Technical University of Munich (TUM) and Helmholtz Munich. Interested in and currently working on understanding the effect of [rare] variants in complex traits and diseases using large biomedical datasets.
 
 Before that, I completed my Bachelor's and Master's in Science at the Indian Institute of Science Education and Research (IISER), Pune, in India.
