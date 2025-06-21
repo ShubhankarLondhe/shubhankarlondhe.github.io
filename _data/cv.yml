@@ -12,8 +12,7 @@
   type: time_table
   contents:
     - title: PhD
-      institution: Technical University of Munich, Munich, Germany
-      institution: Helmholtz Munich, Munich, Germany
+      institution: Technical University of Munich, Munich, Germany \n Helmholtz Munich, Munich, Germany
       year: 2022-Present
       area: Computational Biology
       description:
@@ -23,12 +22,12 @@
       institution: Indian Institute of Science Education and Research (IISER), Pune, India
       year: 2020-2022
       description:
-        - Thesis: Implemented explainable AI methods to quantify secondary structure binding preferences of RNA-Binding Protein
+        - Implemented explainable AI methods to quantify secondary structure binding preferences of RNA-Binding Protein
     - title: Bachelor of Science
       institution: Indian Institute of Science Education and Research (IISER), Pune, India
       year: 2017-2020
       description:
-        - Research project: Developed an algorithm to learn structural patterns from protein micro-environments using deep learning
+        - Developed an algorithm to learn structural patterns from protein micro-environments using deep learning
 
 - title: Talks
   type: time_table
