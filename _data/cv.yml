@@ -13,85 +13,43 @@
   contents:
     - title: PhD
       institution: Technical University of Munich, Munich, Germany
+      institution: Helmholtz Munich, Munich, Germany
       year: 2022-Present
+      area: Computational Biology
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Understanding the effects of variants on complex traits and diseases using large biomedical datasets
+        - Enrolled in the prestigious Munich School for Data Science (MUDS) PhD program
     - title: Master of Science
-      institution: IISER Pune, Pune, India
+      institution: Indian Institute of Science Education and Research (IISER), Pune, India
       year: 2020-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis: Implemented explainable AI methods to quantify secondary structure binding preferences of RNA-Binding Protein
     - title: Bachelor of Science
-      institution: IISER Pune, Pune, India
+      institution: Indian Institute of Science Education and Research (IISER), Pune, India
       year: 2017-2020
       description:
-        - Description 1.
-        - Description 2.
+        - Research project: Developed an algorithm to learn structural patterns from protein micro-environments using deep learning
 
-- title: Experience
+- title: Talks
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+    - title: European Human Genetics Conference (ESHG), Milan, Italy
+      year: May 2025
+      description: 
+        - Functional gene embeddings improve rare variant polygenic risk scores
+    - title: Weihenstephan Bioinformatics Symposium, Freising, Germany
+      year: April 2025
+      description: 
+        - Functional gene embeddings improve rare variant polygenic risk scores
+    - title: Annual meeting of the American Society of Human Genetics (ASHG), Denver, USA
+      year: November 2024
+      description: 
+        - Functional gene embeddings improve rare variant polygenic risk scores
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Awards
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: iGEM (International Genetically Engineered Machine), Silver Medal
+      year: November 2019
+    - title: All India Rank 51, IISER Aptitude Test
+      year: July 2017
