@@ -12,7 +12,9 @@
   type: time_table
   contents:
     - title: PhD
-      institution: Technical University of Munich, Munich, Germany \n Helmholtz Munich, Munich, Germany
+      institution: 
+        - Technical University of Munich, Munich, Germany 
+        - Helmholtz Munich, Munich, Germany
       year: 2022-Present
       area: Computational Biology
       description:
