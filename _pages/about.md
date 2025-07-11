@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>PhD student</p>
     <p>Gagneur Lab</p>
-    <p>Technical University of Munich</p>
+    <p>TU Munich</p>
     <p>Helmholtz Munich</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
