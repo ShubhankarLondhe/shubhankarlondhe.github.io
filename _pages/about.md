@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    PhD student @GagneurLab<br>
+    PhD student [@GagneurLab](https://www.cs.cit.tum.de/cmm/home/)<br>
     TU Munich<br>
     Helmholtz Munich
 
@@ -29,6 +29,6 @@ latest_posts:
 
 Hello there!
 
-I am Shubhankar Londhe, a computational biology PhD student with [Prof. Julien Gagneur](https://www.cs.cit.tum.de/cmm/home/) at the Technical University of Munich (TUM) and Helmholtz Munich. Interested in and currently working on understanding the effect of [rare] variants in complex traits and diseases using large biomedical datasets.
+I am Shubhankar Londhe, a computational biology PhD student with [Prof. Julien Gagneur](https://www.professoren.tum.de/en/gagneur-julien) at the Technical University of Munich (TUM) and Helmholtz Munich. I’m curious about how rare genetic variants influence complex traits and diseases, and I explore these questions using large biomedical datasets like the UK Biobank and Solve-RD.
 
-Before that, I completed my Bachelor's and Master's in Science at the Indian Institute of Science Education and Research (IISER), Pune, in India.
+Previously, I completed my Bachelor's and Master's in Science at the Indian Institute of Science Education and Research (IISER), Pune, in India.
