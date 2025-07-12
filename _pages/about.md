@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    PhD student [@GagneurLab](https://www.cs.cit.tum.de/cmm/home/)<br>
+    PhD student <a href="https://www.cs.cit.tum.de/cmm/home/">@GagneurLab</a><br>
     TU Munich<br>
     Helmholtz Munich
 
