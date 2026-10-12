@@ -1,18 +1,11 @@
 /*-- scss:defaults --*/
 
-// Palette: soft sage background, deep green text and accents
-$sage-bg: #f1f4ef;
-$ink: #1c2b22;
-$accent: #3f7259;
-$muted: #5f6f65;
-
+// Colours ($sage-bg, $ink, $accent, $muted) come from theme-light.scss / theme-dark.scss
 $body-bg: $sage-bg;
 $body-color: $ink;
 $link-color: $accent;
-$link-hover-color: darken($accent, 12%);
 $navbar-bg: $sage-bg;
 $navbar-fg: $accent;
-$navbar-hl: darken($accent, 12%);
 $footer-bg: $sage-bg;
 $footer-fg: $muted;
 
@@ -126,5 +119,47 @@ div.quarto-about-jolla .about-link {
 
   .navbar-brand-container {
     max-width: calc(100% - 4rem);
+  }
+}
+
+// Smaller photo on phones so the bio is visible without scrolling
+@media (max-width: 576px) {
+  div.quarto-about-trestles .about-entity .about-image {
+    width: 9em !important;
+    height: 9em !important;
+  }
+
+  div.quarto-about-trestles .about-entity {
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Contact page
+.contact-block {
+  margin-bottom: 1.5rem;
+
+  .contact-label {
+    color: $muted;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+}
+
+// Never truncate the name in the navbar on wide screens
+@media (min-width: 1200px) {
+  .navbar-brand-container {
+    max-width: none;
+    flex-shrink: 0;
+  }
+
+  .navbar-title {
+    overflow: visible;
+    text-overflow: clip;
+  }
+
+  .navbar .nav-link {
+    padding-left: 0.45rem;
+    padding-right: 0.45rem;
   }
 }
