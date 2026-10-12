@@ -26,6 +26,12 @@ website:
       - icon: bluesky
         aria-label: Bluesky
         href: https://bsky.app/profile/slondhe.bsky.social
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: https://www.linkedin.com/in/shubhankar-londhe-a9825a135
+      - icon: envelope
+        aria-label: Email
+        href: mailto:shubhankar.londhe@gmail.com
   page-footer:
     left: "© 2026 Shubhankar Londhe"
     right: "Built with [Quarto](https://quarto.org)"
