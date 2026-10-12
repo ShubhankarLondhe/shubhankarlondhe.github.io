@@ -20,10 +20,10 @@ Boltzmannstraße 3, 85748 Garching near Munich, Germany
 [Elsewhere]{.contact-label}
 
 ::: {.contact-links}
-[<i class="bi bi-github"></i> GitHub](https://github.com/ShubhankarLondhe)
-[<i class="bi bi-mortarboard-fill"></i> Scholar](https://scholar.google.com/citations?user=1gOQMKMAAAAJ)
-[<i class="bi bi-person-badge"></i> ORCID](https://orcid.org/0000-0002-1220-6650)
 [<i class="bi bi-linkedin"></i> LinkedIn](https://www.linkedin.com/in/shubhankar-londhe-a9825a135)
 [<i class="bi bi-bluesky"></i> Bluesky](https://bsky.app/profile/slondhe.bsky.social)
+[<i class="bi bi-person-badge"></i> ORCID](https://orcid.org/0000-0002-1220-6650)
+[<i class="bi bi-mortarboard-fill"></i> Scholar](https://scholar.google.com/citations?user=1gOQMKMAAAAJ)
+[<i class="bi bi-github"></i> GitHub](https://github.com/ShubhankarLondhe)
 :::
 :::
