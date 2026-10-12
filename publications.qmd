@@ -1,0 +1,44 @@
+---
+aliases:
+  - /publications/index.html
+title: "Publications"
+---
+
+See also [Google Scholar](https://scholar.google.com/citations?user=1gOQMKMAAAAJ).
+
+## 2026
+
+::: {.entry}
+[Phenotypes of ultra-rare variant carriers benchmark variant effect scores]{.entry-title}\
+[Londhe S]{.me}, Holtkamp E, Tsitsiridis G, Starovoit A, Tomaz da Silva P, Hingerl J, Finucane H, Gagneur J\
+[*bioRxiv* (preprint)]{.entry-meta}\
+[Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1){.pill}
+[PDF](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1.full.pdf){.pill}
+[Code](https://github.com/gagneurlab/ukbbgym){.pill}
+:::
+
+## 2024
+
+::: {.entry}
+[Functional gene embeddings improve rare variant polygenic risk scores]{.entry-title}\
+[Londhe S]{.me}, Lindner J, Chen Z, Holtkamp E, Hölzlwimmer FR, Casale FP, Brechtmann F, Gagneur J\
+[*bioRxiv* (preprint)]{.entry-meta}\
+[Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v1){.pill}
+[Code](https://github.com/gagneurlab/funcRVP){.pill}
+:::
+
+## 2023
+
+::: {.entry}
+[Evaluation of input data modality choices on functional gene embeddings]{.entry-title}\
+Brechtmann F, Bechtler T, [Londhe S]{.me}, Mertes C, Gagneur J\
+[*NAR Genomics and Bioinformatics* 5(4), lqad095]{.entry-meta}\
+[Paper](https://doi.org/10.1093/nargab/lqad095){.pill}
+:::
+
+::: {.entry}
+[A systematic benchmark of machine learning methods for protein–RNA interaction prediction]{.entry-title}\
+Horlacher M, Cantini G, Hesse J, Schinke P, Goedert N, [Londhe S]{.me}, Moyon L, Marsico A\
+[*Briefings in Bioinformatics* 24(5), bbad307]{.entry-meta}\
+[Paper](https://doi.org/10.1093/bib/bbad307){.pill}
+:::

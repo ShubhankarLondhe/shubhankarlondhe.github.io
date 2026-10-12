@@ -1,25 +1,25 @@
 # shubhankarlondhe.github.io
 
-Personal academic website of Shubhankar Londhe, built with Jekyll and the [al-folio](https://github.com/alshedivat/al-folio) theme. Live at <https://shubhankarlondhe.github.io>.
+Personal academic website of Shubhankar Londhe, built with [Quarto](https://quarto.org). Live at <https://shubhankarlondhe.github.io>.
 
-Pushing to `main` triggers the `Deploy site` GitHub Action, which builds the site into the `gh-pages` branch.
+Pushing to `main` runs the `Publish site` GitHub Action, which renders the site and publishes `_site/` to the `gh-pages` branch. Pull requests are rendered but not published.
 
 ## Where to edit content
 
 | What | File |
 | --- | --- |
-| Bio, profile picture caption | `_pages/about.md` |
-| Publications | `_bibliography/papers.bib` (`selected={true}` shows a paper on the home page) |
-| Code / project cards | `_data/repositories.yml` |
-| CV (education, talks, awards) | `_data/cv.yml` |
-| Social links | `_data/socials.yml` |
-| Teaching | `_pages/teaching.md` |
-| Site settings | `_config.yml` |
+| Bio, photo, social links | `index.qmd` |
+| Publications | `publications.qmd` |
+| Code / project cards | `projects.qmd` |
+| CV (education, talks, awards) | `cv.qmd` |
+| Teaching | `teaching.qmd` |
+| Navigation bar, site title, footer | `_quarto.yml` |
+| Colours and fonts | `styles.scss` |
 
 ## Local preview
 
 ```bash
-docker compose up
+quarto preview
 ```
 
-Then open <http://localhost:8080>.
+The site has no executable code, so it needs only Quarto (no Python or R environment). Python code cells would work too, but the GitHub Action would then need a Python setup step.
