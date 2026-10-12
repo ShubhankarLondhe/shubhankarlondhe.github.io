@@ -201,10 +201,10 @@ div.quarto-about-jolla .about-link {
     margin-top: 0;
     line-height: 1.2;
     // The year's digits are much taller than the title's capitals, so with
-    // shared baselines the year looks high. Nudge it down so both are
-    // centred on the same line.
+    // shared baselines the year sticks up. Nudge it down so the top of the
+    // digits lines up with the top of the title's capitals.
     position: relative;
-    top: 0.14em;
+    top: 0.283em;
   }
 
   @media (max-width: 576px) {
