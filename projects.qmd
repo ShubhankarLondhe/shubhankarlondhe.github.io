@@ -21,6 +21,6 @@ DNAnexus applets for preparing UK Biobank data on the Research Analysis Platform
 ::: {.entry}
 [FuncRVP](https://github.com/gagneurlab/funcRVP){.entry-title}\
 A Bayesian rare variant association framework that uses functional gene embeddings as a prior on gene effects, improving phenotype prediction and gene discovery.\
-[Paper](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v1){.pill}
+[Paper](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3){.pill}
 [GitHub](https://github.com/gagneurlab/funcRVP){.pill}
 :::

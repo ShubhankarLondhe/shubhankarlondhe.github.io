@@ -32,9 +32,9 @@ In summer 2026 I spent three months at the Broad Institute with Hilary Finucane 
 
 Previously, I completed my Bachelor's and Master's in Science at the Indian Institute of Science Education and Research (IISER), Pune, in India.
 
-## Recent work
+## Highlighted work
 
 - **Phenotypes of ultra-rare variant carriers benchmark variant effect scores.** bioRxiv, 2026. [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)
-- **Functional gene embeddings improve rare variant polygenic risk scores.** bioRxiv, 2024. [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v1) · [Code](https://github.com/gagneurlab/funcRVP)
+- **Functional gene embeddings improve rare variant polygenic risk scores.** bioRxiv, 2024. [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3) · [Code](https://github.com/gagneurlab/funcRVP)
 
 [All publications →](publications.qmd)
