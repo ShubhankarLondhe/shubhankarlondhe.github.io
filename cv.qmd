@@ -1,4 +1,5 @@
 ---
+description-meta: "CV of Shubhankar Londhe: education, talks, awards and grants. Download the PDF version."
 aliases:
   - /cv/index.html
 title: "CV"

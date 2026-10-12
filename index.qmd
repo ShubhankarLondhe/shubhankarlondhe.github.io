@@ -1,7 +1,51 @@
 ---
+description-meta: "Shubhankar Londhe is a computational biology PhD student at the Technical University of Munich and Helmholtz Munich, working on rare genetic variants, complex traits and variant effect prediction with the UK Biobank."
 title: "Shubhankar Londhe"
 subtitle: "PhD student [@GagneurLab](https://www.cs.cit.tum.de/cmm/home/) · TU Munich · Helmholtz Munich"
 image: assets/img/prof_pic.jpg
+include-in-header:
+  text: |
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Shubhankar Londhe",
+      "url": "https://shubhankarlondhe.github.io/",
+      "image": "https://shubhankarlondhe.github.io/assets/img/prof_pic.jpg",
+      "jobTitle": "PhD student in computational biology",
+      "affiliation": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Technical University of Munich",
+          "url": "https://www.tum.de"
+        },
+        {
+          "@type": "ResearchOrganization",
+          "name": "Helmholtz Munich",
+          "url": "https://www.helmholtz-munich.de"
+        }
+      ],
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Indian Institute of Science Education and Research, Pune"
+      },
+      "knowsAbout": [
+        "Computational biology",
+        "Human genetics",
+        "Rare genetic variants",
+        "Variant effect prediction",
+        "UK Biobank",
+        "Machine learning"
+      ],
+      "sameAs": [
+        "https://scholar.google.com/citations?user=1gOQMKMAAAAJ",
+        "https://orcid.org/0000-0002-1220-6650",
+        "https://github.com/ShubhankarLondhe",
+        "https://www.linkedin.com/in/shubhankar-londhe-a9825a135",
+        "https://bsky.app/profile/slondhe.bsky.social"
+      ]
+    }
+    </script>
 about:
   template: trestles
   image-width: 14em

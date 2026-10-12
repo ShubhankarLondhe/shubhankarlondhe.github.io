@@ -42,6 +42,7 @@ format:
       light: [styles.scss, theme-light.scss]
       dark: [styles.scss, theme-dark.scss]
     respect-user-color-scheme: true
+    canonical-url: true
     toc: false
     grid:
       body-width: 800px

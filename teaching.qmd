@@ -1,4 +1,5 @@
 ---
+description-meta: "Courses Shubhankar Londhe teaches at the Technical University of Munich in human genetics, machine learning and data science."
 aliases:
   - /teaching/index.html
 title: "Teaching"
