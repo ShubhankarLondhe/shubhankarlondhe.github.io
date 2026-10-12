@@ -200,6 +200,11 @@ div.quarto-about-jolla .about-link {
   > h2 {
     margin-top: 0;
     line-height: 1.2;
+    // The year's digits are much taller than the title's capitals, so with
+    // shared baselines the year looks high. Nudge it down so both are
+    // centred on the same line.
+    position: relative;
+    top: 0.14em;
   }
 
   @media (max-width: 576px) {
@@ -207,6 +212,7 @@ div.quarto-about-jolla .about-link {
 
     > h2 {
       margin-bottom: 0.8rem;
+      top: 0;
     }
   }
 }
