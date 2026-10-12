@@ -2,7 +2,10 @@
 
 Personal academic website of Shubhankar Londhe, built with [Quarto](https://quarto.org). Live at <https://shubhankarlondhe.github.io>.
 
-Pushing to `main` runs the `Publish site` GitHub Action, which renders the site and publishes `_site/` to the `gh-pages` branch. Pull requests are rendered but not published.
+## Branches
+
+- `main`: the published site. Every push to `main` runs the `Publish site` GitHub Action, which renders the site and deploys it to GitHub Pages.
+- `dev`: work in progress. Pushes to `dev` are rendered as a check but not published. Open a pull request from `dev` into `main` to publish.
 
 ## Where to edit content
 
