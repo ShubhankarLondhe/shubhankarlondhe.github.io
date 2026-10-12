@@ -194,6 +194,8 @@ div.quarto-about-jolla .about-link {
   grid-template-columns: 5.5rem 1fr;
   column-gap: 1.5rem;
   margin-top: 1rem;
+  // Line the year up with the first line of the first paper title
+  align-items: baseline;
 
   > h2 {
     margin-top: 0;
