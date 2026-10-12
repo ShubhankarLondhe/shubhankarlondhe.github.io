@@ -14,7 +14,7 @@ title: "CV"
 ::: {}
 **PhD, Computational Biology**\
 Technical University of Munich and Helmholtz Munich, Germany\
-Understanding the effects of variants on complex traits and diseases using large biomedical datasets. Member of the Munich School for Data Science (MUDS) PhD program.
+Member of the Munich School for Data Science (MUDS) PhD program
 :::
 :::
 
@@ -23,8 +23,7 @@ Understanding the effects of variants on complex traits and diseases using large
 
 ::: {}
 **Master of Science**\
-Indian Institute of Science Education and Research (IISER), Pune, India\
-Implemented explainable AI methods to quantify secondary structure binding preferences of RNA-binding proteins.
+Indian Institute of Science Education and Research (IISER), Pune, India
 :::
 :::
 
@@ -33,8 +32,7 @@ Implemented explainable AI methods to quantify secondary structure binding prefe
 
 ::: {}
 **Bachelor of Science**\
-Indian Institute of Science Education and Research (IISER), Pune, India\
-Developed an algorithm to learn structural patterns from protein micro-environments using deep learning.
+Indian Institute of Science Education and Research (IISER), Pune, India
 :::
 :::
 
