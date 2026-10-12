@@ -5,6 +5,7 @@ image: assets/img/prof_pic.jpg
 about:
   template: trestles
   image-width: 14em
+  image-shape: round
   links:
     - icon: envelope
       text: Email

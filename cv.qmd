@@ -4,6 +4,8 @@ aliases:
 title: "CV"
 ---
 
+[Download CV (PDF)](assets/pdf/Shubhankar_Londhe_CV.pdf){.pill download="Shubhankar_Londhe_CV.pdf"}
+
 ## Education
 
 ::: {.cv-row}
@@ -37,6 +39,15 @@ Developed an algorithm to learn structural patterns from protein micro-environme
 :::
 
 ## Talks
+
+::: {.cv-row}
+[Oct 2025]{.cv-date}
+
+::: {}
+**ERDERA Science Club Series**\
+Functional gene embeddings improve rare variant based gene discovery
+:::
+:::
 
 ::: {.cv-row}
 [May 2025]{.cv-date}
