@@ -31,4 +31,6 @@ Hello there!
 
 I am Shubhankar Londhe, a computational biology PhD student with [Prof. Julien Gagneur](https://www.professoren.tum.de/en/gagneur-julien) at the Technical University of Munich (TUM) and Helmholtz Munich. I’m curious about how rare genetic variants influence complex traits and diseases, and I explore these questions using large biomedical datasets like the UK Biobank and Solve-RD.
 
+In summer 2026 I spent three months at the Broad Institute with Hilary Finucane and Konrad Karczewski, funded by an EMBO Scientific Exchange Grant.
+
 Previously, I completed my Bachelor's and Master's in Science at the Indian Institute of Science Education and Research (IISER), Pune, in India.
