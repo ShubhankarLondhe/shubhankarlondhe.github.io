@@ -1,0 +1,107 @@
+---
+aliases:
+  - /cv/index.html
+title: "CV"
+---
+
+[Download CV (PDF)](assets/pdf/Shubhankar_Londhe_CV.pdf){.pill download="Shubhankar_Londhe_CV.pdf"}
+
+## Education
+
+::: {.cv-row}
+[2022–present]{.cv-date}
+
+::: {}
+**PhD, Computational Biology**\
+Technical University of Munich and Helmholtz Munich, Germany\
+Member of the Munich School for Data Science (MUDS) PhD program
+:::
+:::
+
+::: {.cv-row}
+[2020–2022]{.cv-date}
+
+::: {}
+**Master of Science**\
+Indian Institute of Science Education and Research (IISER), Pune, India
+:::
+:::
+
+::: {.cv-row}
+[2017–2020]{.cv-date}
+
+::: {}
+**Bachelor of Science**\
+Indian Institute of Science Education and Research (IISER), Pune, India
+:::
+:::
+
+## Talks
+
+::: {.cv-row}
+[Oct 2025]{.cv-date}
+
+::: {}
+**ERDERA Science Club Series**\
+Functional gene embeddings improve rare variant based gene discovery
+:::
+:::
+
+::: {.cv-row}
+[May 2025]{.cv-date}
+
+::: {}
+**European Human Genetics Conference (ESHG)**, Milan, Italy\
+Functional gene embeddings improve rare variant polygenic risk scores
+:::
+:::
+
+::: {.cv-row}
+[Apr 2025]{.cv-date}
+
+::: {}
+**Weihenstephan Bioinformatics Symposium**, Freising, Germany\
+FuncRVP: a rare variant association framework leveraging functional information across genes
+:::
+:::
+
+::: {.cv-row}
+[Nov 2024]{.cv-date}
+
+::: {}
+**Annual Meeting of the American Society of Human Genetics (ASHG)**, Denver, USA\
+Functional gene embeddings improve rare variant polygenic risk scores
+:::
+:::
+
+## Awards & Grants
+
+::: {.cv-row}
+[Jun–Aug 2026]{.cv-date}
+
+::: {}
+**EMBO Scientific Exchange Grant #12502**\
+3-month research exchange at the Broad Institute of MIT and Harvard, Cambridge, USA, with Hilary Finucane and Konrad Karczewski.
+:::
+:::
+
+::: {.cv-row}
+[Nov 2019]{.cv-date}
+
+::: {}
+**iGEM (International Genetically Engineered Machine), Silver Medal**\
+Quantitative modelling of engineered synthetic operon systems in bacteria.
+:::
+:::
+
+::: {.cv-row}
+[Jul 2017]{.cv-date}
+
+::: {}
+**All India Rank 51**, IISER Aptitude Test
+:::
+:::
+
+## Languages
+
+English, Hindi, Marathi

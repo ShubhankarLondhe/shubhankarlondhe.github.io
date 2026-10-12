@@ -1,0 +1,41 @@
+---
+title: "Shubhankar Londhe"
+subtitle: "PhD student [@GagneurLab](https://www.cs.cit.tum.de/cmm/home/) · TU Munich · Helmholtz Munich"
+image: assets/img/prof_pic.jpg
+about:
+  template: trestles
+  image-width: 14em
+  image-shape: round
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:shubhankar.londhe@gmail.com
+    - icon: github
+      text: GitHub
+      href: https://github.com/ShubhankarLondhe
+    - icon: mortarboard-fill
+      text: Scholar
+      href: https://scholar.google.com/citations?user=1gOQMKMAAAAJ
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0002-1220-6650
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/shubhankar-londhe-a9825a135
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/slondhe.bsky.social
+---
+
+I am a computational biology PhD student with [Prof. Julien Gagneur](https://www.professoren.tum.de/en/gagneur-julien) at the Technical University of Munich (TUM) and Helmholtz Munich. I'm curious about how rare genetic variants influence complex traits and diseases, and I explore these questions using large biomedical datasets like the UK Biobank and Solve-RD.
+
+In summer 2026 I spent three months at the Broad Institute of MIT and Harvard with [Hilary Finucane](https://www.finucanelab.org) and [Konrad Karczewski](https://konradjk.github.io), funded by an EMBO Scientific Exchange Grant.
+
+Previously, I completed my Bachelor's and Master's in Science at the Indian Institute of Science Education and Research (IISER), Pune, in India.
+
+## Highlighted work
+
+- **Phenotypes of ultra-rare variant carriers benchmark variant effect scores.** bioRxiv, 2026. [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)
+- **Functional gene embeddings improve rare variant polygenic risk scores.** bioRxiv, 2024. [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3) · [Code](https://github.com/gagneurlab/funcRVP)
+
+[All publications →](publications.qmd)

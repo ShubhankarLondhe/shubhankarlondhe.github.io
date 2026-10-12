@@ -1,0 +1,26 @@
+---
+aliases:
+  - /projects/index.html
+title: "Projects"
+subtitle: "Open-source code from my research."
+---
+
+::: {.entry}
+[UKBBGym](https://github.com/gagneurlab/ukbbgym){.entry-title}\
+A population-scale benchmark for variant effect predictors. It scores predictors against phenotypes and plasma protein levels observed in carriers of ultra-rare variants in the UK Biobank.\
+[Paper](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1){.pill}
+[GitHub](https://github.com/gagneurlab/ukbbgym){.pill}
+:::
+
+::: {.entry}
+[ukbb-utils-gagneur](https://github.com/gagneurlab/ukbb-utils-gagneur){.entry-title}\
+DNAnexus applets for preparing UK Biobank data on the Research Analysis Platform: phenotype and covariate extraction, genotype QC and variant annotation. Used for the UKBBGym analyses.\
+[GitHub](https://github.com/gagneurlab/ukbb-utils-gagneur){.pill}
+:::
+
+::: {.entry}
+[FuncRVP](https://github.com/gagneurlab/funcRVP){.entry-title}\
+A Bayesian rare variant association framework that uses functional gene embeddings as a prior on gene effects, improving phenotype prediction and gene discovery.\
+[Paper](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3){.pill}
+[GitHub](https://github.com/gagneurlab/funcRVP){.pill}
+:::

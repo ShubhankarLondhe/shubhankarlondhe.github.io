@@ -1,7 +1,0 @@
-# github_users:
-#   - ShubhankarLondhe
-
-repo_description_lines_max: 2
-
-github_repos:
-  - gagneurlab/funcRVP
