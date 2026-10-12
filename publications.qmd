@@ -1,4 +1,5 @@
 ---
+description-meta: "Publications by Shubhankar Londhe on rare variant association, variant effect prediction, gene embeddings and rare disease diagnosis."
 aliases:
   - /publications/index.html
 title: "Publications"
