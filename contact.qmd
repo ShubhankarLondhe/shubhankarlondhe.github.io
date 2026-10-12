@@ -1,0 +1,26 @@
+---
+title: "Contact"
+---
+
+::: {.contact-block}
+[Email]{.contact-label}\
+[shubhankar.londhe@gmail.com](mailto:shubhankar.londhe@gmail.com)\
+[shubhankar.londhe@cit.tum.de](mailto:shubhankar.londhe@cit.tum.de) (work)
+:::
+
+::: {.contact-block}
+[Address]{.contact-label}\
+Computational Molecular Medicine ([Gagneur lab](https://www.cs.cit.tum.de/cmm/home/))\
+School of Computation, Information and Technology\
+Technical University of Munich\
+Boltzmannstraße 3, 85748 Garching near Munich, Germany
+:::
+
+::: {.contact-block}
+[Elsewhere]{.contact-label}\
+[GitHub](https://github.com/ShubhankarLondhe) ·
+[Google Scholar](https://scholar.google.com/citations?user=1gOQMKMAAAAJ) ·
+[ORCID](https://orcid.org/0000-0002-1220-6650) ·
+[LinkedIn](https://www.linkedin.com/in/shubhankar-londhe-a9825a135) ·
+[Bluesky](https://bsky.app/profile/slondhe.bsky.social)
+:::

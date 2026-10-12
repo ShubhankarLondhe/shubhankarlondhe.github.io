@@ -6,25 +6,6 @@ about:
   template: trestles
   image-width: 14em
   image-shape: round
-  links:
-    - icon: envelope
-      text: Email
-      href: mailto:shubhankar.londhe@gmail.com
-    - icon: github
-      text: GitHub
-      href: https://github.com/ShubhankarLondhe
-    - icon: mortarboard-fill
-      text: Scholar
-      href: https://scholar.google.com/citations?user=1gOQMKMAAAAJ
-    - icon: person-badge
-      text: ORCID
-      href: https://orcid.org/0000-0002-1220-6650
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/shubhankar-londhe-a9825a135
-    - icon: bluesky
-      text: Bluesky
-      href: https://bsky.app/profile/slondhe.bsky.social
 ---
 
 I am a computational biology PhD student with [Prof. Julien Gagneur](https://www.professoren.tum.de/en/gagneur-julien) at the Technical University of Munich (TUM) and Helmholtz Munich. I'm curious about how rare genetic variants influence complex traits and diseases, and I explore these questions using large biomedical datasets like the UK Biobank and Solve-RD.
