@@ -29,12 +29,6 @@ website:
       - icon: mortarboard-fill
         aria-label: Google Scholar
         href: https://scholar.google.com/citations?user=1gOQMKMAAAAJ
-      - icon: bluesky
-        aria-label: Bluesky
-        href: https://bsky.app/profile/slondhe.bsky.social
-      - icon: linkedin
-        aria-label: LinkedIn
-        href: https://www.linkedin.com/in/shubhankar-londhe-a9825a135
       - icon: envelope
         aria-label: Email
         href: mailto:shubhankar.londhe@gmail.com
