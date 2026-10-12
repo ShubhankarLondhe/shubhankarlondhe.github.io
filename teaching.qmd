@@ -2,6 +2,54 @@
 aliases:
   - /teaching/index.html
 title: "Teaching"
+subtitle: "Member of the teaching team for courses of the [Gagneur lab](https://www.cs.cit.tum.de/cmm/home/) at the Technical University of Munich."
 ---
 
-This page is not yet completed. Will be updated soon.
+## Current
+
+::: {.cv-row}
+[Oct 2026–present]{.cv-date}
+
+::: {}
+**[Machine Learning for Human Genetics](https://www.cs.cit.tum.de/cmm/training-and-teaching/winter-term-2026/computational-modeling-for-system-genetics/)**\
+Lectures, coding tutorials and a supervised research project on the statistical and machine learning models used in human and systems genetics. Successor of *Computational Modelling for System Genetics*.
+:::
+:::
+
+::: {.cv-row}
+[Oct 2026–present]{.cv-date}
+
+::: {}
+**[A Practical Introduction to Data Science](https://www.cs.cit.tum.de/cmm/training-and-teaching/winter-term-2026/a-practical-introduction-to-data-science/)**\
+Methods and good practices of data science in Python: getting and structuring data, visualization, statistical testing and supervised learning.
+:::
+:::
+
+## Past
+
+::: {.cv-row}
+[Oct 2022–Apr 2026]{.cv-date}
+
+::: {}
+**[Computational Modelling for System Genetics](https://www.cs.cit.tum.de/cmm/training-and-teaching/winter-term-2025/computational-modelling-for-system-genetics/)**\
+Lectures and tutorials introducing systems genetics and its statistical and AI models, followed by a hands-on research project.
+:::
+:::
+
+::: {.cv-row}
+[Oct 2022–Apr 2026]{.cv-date}
+
+::: {}
+**[Data Analysis and Visualization in R](https://www.cs.cit.tum.de/cmm/training-and-teaching/winter-term-2025/data-analysis-and-visualization-in-r/)**\
+Methods and good practices of data science: tidying data, visualization, unsupervised learning, statistical testing and supervised learning.
+:::
+:::
+
+::: {.cv-row}
+[Apr 2023–Oct 2025]{.cv-date}
+
+::: {}
+**[Machine Learning for Regulatory Genomics](https://www.cs.cit.tum.de/cmm/training-and-teaching/summer-term-2026/machine-learning-for-regulatory-genomics/)**\
+Gene regulation from DNA accessibility to protein abundance, and deep learning models for sequence-based prediction, with a hands-on project.
+:::
+:::
