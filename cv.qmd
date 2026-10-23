@@ -20,19 +20,10 @@ Member of the Munich School for Data Science (MUDS) PhD program
 :::
 
 ::: {.cv-row}
-[2020–2022]{.cv-date}
+[2017–2022]{.cv-date}
 
 ::: {}
-**Master of Science**\
-Indian Institute of Science Education and Research (IISER), Pune, India
-:::
-:::
-
-::: {.cv-row}
-[2017–2020]{.cv-date}
-
-::: {}
-**Bachelor of Science**\
+**BS-MS Dual Degree, Mathematics**\
 Indian Institute of Science Education and Research (IISER), Pune, India
 :::
 :::

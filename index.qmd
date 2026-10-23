@@ -63,7 +63,7 @@ Previously, I completed my Bachelor's and Master's in Science at the Indian Inst
 
 ## Highlighted work
 
-- **Phenotypes of ultra-rare variant carriers benchmark variant effect scores.** bioRxiv, 2026. [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)
+- **Phenotypes of ultra-rare variant carriers benchmark variant effect scores.** bioRxiv, 2026 (under review). [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)
 - **Functional gene embeddings improve rare variant polygenic risk scores.** bioRxiv, 2024. [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3) · [Code](https://github.com/gagneurlab/funcRVP)
 
 [All publications →](publications.qmd)
