@@ -103,6 +103,32 @@ Quantitative modelling of engineered synthetic operon systems in bacteria.
 :::
 :::
 
+## Skills
+
+::: {.cv-row}
+[Data]{.cv-date}
+
+::: {}
+Patient and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD); variant files (VCF); biobank cloud platforms
+:::
+:::
+
+::: {.cv-row}
+[Machine learning]{.cv-date}
+
+::: {}
+Training and evaluating machine learning models (PyTorch, GPU computing)
+:::
+:::
+
+::: {.cv-row}
+[Programming]{.cv-date}
+
+::: {}
+Python (PyTorch, pandas, optuna), R (ggplot2, tidyverse), Snakemake, SLURM, Git, bash
+:::
+:::
+
 ## Languages
 
 English, Hindi, Marathi
