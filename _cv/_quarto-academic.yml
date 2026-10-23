@@ -1,0 +1,5 @@
+metadata:
+  cv-variant: academic
+format:
+  typst:
+    output-file: cv-academic.pdf

@@ -1,0 +1,171 @@
+# Single source of truth for the CV.
+# Rendered by _cv/cv.lua into the website CV page (cv.qmd) and the PDFs
+# (_cv/cv.qmd -> assets/cv/cv-academic.pdf, assets/cv/cv-industry.pdf).
+# Values are Markdown. Quote anything containing '#', ':' or '@'.
+# Public data only: no phone, home address, date of birth or referee contacts.
+
+name: "Shubhankar Londhe"
+
+contact:
+  - label: "Email"
+    text: "shubhankar.londhe@gmail.com"
+    url: "mailto:shubhankar.londhe@gmail.com"
+  - label: "Work email"
+    text: "shubhankar.londhe@cit.tum.de"
+    url: "mailto:shubhankar.londhe@cit.tum.de"
+  - label: "ORCID"
+    text: "orcid.org/0000-0002-1220-6650"
+    url: "https://orcid.org/0000-0002-1220-6650"
+  - label: "Website"
+    text: "shubhankarlondhe.github.io"
+    url: "https://shubhankarlondhe.github.io"
+  - label: "GitHub"
+    text: "github.com/ShubhankarLondhe"
+    url: "https://github.com/ShubhankarLondhe"
+  - label: "LinkedIn"
+    text: "linkedin.com/in/shubhankar-londhe-a9825a135"
+    url: "https://www.linkedin.com/in/shubhankar-londhe-a9825a135"
+
+# TODO(Shubhankar): draft wording, edit before using the industry CV.
+summary: >-
+  Computational biologist (PhD candidate, TUM and Helmholtz Munich) working on
+  rare-variant effects in complex traits and disease. Hands-on experience with
+  patient-level genetic data on the UK Biobank RAP, All of Us Researcher
+  Workbench and Genomics England Research Environment, and with training and
+  evaluating machine learning models in PyTorch.
+
+affiliations:
+  - title: "Visiting Researcher"
+    org: "Broad Institute of MIT and Harvard"
+    location: "Cambridge, USA"
+    start: "06.2026"
+    end: "08.2026"
+    details:
+      - "Hosts: Hilary Finucane, Konrad Karczewski"
+  - title: "Doctoral Researcher"
+    org: "Helmholtz Munich"
+    location: "Munich, Germany"
+    start: "07.2024"
+    end: "Present"
+  - title: "Doctoral Researcher"
+    org: "Technical University of Munich"
+    location: "Munich, Germany"
+    start: "10.2022"
+    end: "Present"
+
+education:
+  - title: "PhD, Computational Biology"
+    org: "Technical University of Munich & Helmholtz Munich"
+    location: "Munich, Germany"
+    start: "10.2022"
+    end: "Present"
+    # Shown on the website CV page as well
+    web-details:
+      - "Member of the Munich School for Data Science (MUDS) PhD program"
+    details:
+      - "Supervisor: Prof. Dr. Julien Gagneur"
+      - "Methods to capture rare-variant effects in disease and complex traits, using biobank-scale data (UK Biobank, All of Us, Genomics England) and rare-disease cohorts (Solve-RD)"
+      - "Member of the Munich School for Data Science (MUDS) PhD program"
+      - "Supervised 3 Master's theses and multiple graduate and undergraduate interns"
+  - title: "BS-MS Dual Degree, Mathematics"
+    org: "Indian Institute of Science Education and Research (IISER)"
+    location: "Pune, India"
+    start: "08.2017"
+    end: "05.2022"
+    details:
+      - "GPA: 8.5/10"
+      - "Master's thesis (supervisor: Dr. Annalisa Marsico): explainable AI methods to quantify secondary-structure binding preferences of RNA-binding proteins"
+      - "Research assistant (supervisor: Prof. M. S. Madhusudhan): deep learning algorithm to learn structural patterns from protein micro-environments"
+
+talks:
+  - title: "ERDERA Science Club Series"
+    start: "10.2025"
+    details:
+      - "Functional gene embeddings improve rare variant based gene discovery"
+  - title: "European Society of Human Genetics (ESHG) Annual Meeting"
+    location: "Milan, Italy"
+    start: "05.2025"
+    details:
+      - "Functional gene embeddings improve rare variant polygenic risk scores"
+  - title: "Weihenstephan Bioinformatics Symposium"
+    location: "Freising, Germany"
+    start: "04.2025"
+    details:
+      - "Functional gene embeddings improve rare variant polygenic risk scores"
+  - title: "American Society of Human Genetics (ASHG) Annual Meeting"
+    location: "Denver, USA"
+    start: "11.2024"
+    details:
+      - "Functional gene embeddings improve rare variant polygenic risk scores"
+
+teaching:
+  - title: "Machine Learning for Human Genetics"
+    org: "Technical University of Munich"
+    start: "10.2026"
+    end: "Present"
+    url: "https://www.cs.cit.tum.de/cmm/training-and-teaching/winter-term-2026/computational-modeling-for-system-genetics/"
+  - title: "A Practical Introduction to Data Science"
+    org: "Technical University of Munich"
+    start: "10.2026"
+    end: "Present"
+    url: "https://www.cs.cit.tum.de/cmm/training-and-teaching/winter-term-2026/a-practical-introduction-to-data-science/"
+  - title: "Computational Modelling for System Genetics"
+    org: "Technical University of Munich"
+    start: "10.2022"
+    end: "04.2026"
+    url: "https://www.cs.cit.tum.de/cmm/training-and-teaching/winter-term-2025/computational-modelling-for-system-genetics/"
+  - title: "Data Analysis and Visualization in R"
+    org: "Technical University of Munich"
+    start: "10.2022"
+    end: "04.2026"
+    url: "https://www.cs.cit.tum.de/cmm/training-and-teaching/winter-term-2025/data-analysis-and-visualization-in-r/"
+  - title: "Machine Learning for Regulatory Genomics"
+    org: "Technical University of Munich"
+    start: "04.2023"
+    end: "10.2025"
+    url: "https://www.cs.cit.tum.de/cmm/training-and-teaching/summer-term-2026/machine-learning-for-regulatory-genomics/"
+
+skills:
+  - title: "Biobank platforms"
+    details:
+      - "UK Biobank RAP (DNAnexus), All of Us Researcher Workbench, Genomics England Research Environment"
+  - title: "Data"
+    details:
+      - "Patient and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD); variant call files (VCF)"
+  - title: "Machine learning"
+    details:
+      - "Training and evaluating machine learning models (PyTorch, GPU computing)"
+  - title: "Programming"
+    details:
+      - "5+ years: Python (PyTorch, pandas, optuna), LaTeX"
+      - "3+ years: GPU computing, Snakemake, Git, SLURM, bash, R (ggplot2, tidyverse)"
+
+grants:
+  - title: "EMBO Scientific Exchange Grant #12502"
+    start: "06.2026"
+    end: "08.2026"
+    details:
+      - "3-month research exchange at the Broad Institute of MIT and Harvard with Hilary Finucane and Konrad Karczewski"
+  - title: "iGEM (International Genetically Engineered Machine), Silver Medal"
+    start: "11.2019"
+    details:
+      - "Quantitative modelling of engineered synthetic operon systems in bacteria"
+  - title: "All India Rank 51, IISER Aptitude Test"
+    start: "07.2017"
+
+languages:
+  - title: "English"
+    details: ["Native"]
+  - title: "Marathi"
+    details: ["Native"]
+  - title: "Hindi"
+    details: ["Fluent"]
+
+# Section order per output. Edit freely.
+layouts:
+  academic: [affiliations, education, publications, skills, talks, teaching, grants, languages]
+  industry: [summary, affiliations, skills, publications, education, talks, teaching, grants, languages]
+  web: [education, skills, talks, grants, languages]
+
+# Name to bold in author lists (as it appears in data/publications.bib)
+me: "Londhe, Shubhankar"

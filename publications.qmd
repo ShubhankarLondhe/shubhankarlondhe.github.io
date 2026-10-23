@@ -3,77 +3,12 @@ description-meta: "Publications by Shubhankar Londhe on rare variant association
 aliases:
   - /publications/index.html
 title: "Publications"
+shortcodes:
+  - _cv/cv.lua
 ---
 
 See also [Google Scholar](https://scholar.google.com/citations?user=1gOQMKMAAAAJ).
 
-::: {.pub-year}
-## 2026
+<!-- Generated from data/publications.bib; edit it there. -->
 
-::: {.pub-list}
-::: {.entry}
-[Phenotypes of ultra-rare variant carriers benchmark variant effect scores]{.entry-title}\
-[S Londhe]{.me}, E Holtkamp, G Tsitsiridis, A Starovoit, P Tomaz da Silva, J Hingerl, H Finucane, J Gagneur\
-[*bioRxiv* (preprint, under review)]{.entry-meta}\
-[Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1){.pill}
-[PDF](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1.full.pdf){.pill}
-[Code](https://github.com/gagneurlab/ukbbgym){.pill}
-:::
-:::
-:::
-
-::: {.pub-year}
-## 2025
-
-::: {.pub-list}
-::: {.entry}
-[The Solve-RD Solvathons as a pan-European interdisciplinary collaboration to diagnose patients with rare disease]{.entry-title}\
-VA Yépez, G Demidov, K Ellwanger, S Laurie, R Luknárová, …, [S Londhe]{.me}, …, J Gagneur, H Graessner\
-[*Nature Genetics* 57(10), 2361–2370]{.entry-meta}\
-[Paper](https://doi.org/10.1038/s41588-025-02290-3){.pill}
-:::
-
-::: {.entry}
-[Aberrant splicing prediction during human organ development]{.entry-title}\
-N Wagner, AM Neverov, AC Martin-Geary, [S Londhe]{.me}, C Schröder, VA Yépez, N Whiffin, J Gagneur\
-[*bioRxiv* (preprint)]{.entry-meta}\
-[Preprint](https://www.biorxiv.org/content/10.1101/2025.07.16.665183v2){.pill}
-[PDF](https://www.biorxiv.org/content/10.1101/2025.07.16.665183v2.full.pdf){.pill}
-:::
-:::
-:::
-
-::: {.pub-year}
-## 2024
-
-::: {.pub-list}
-::: {.entry}
-[Functional gene embeddings improve rare variant polygenic risk scores]{.entry-title}\
-[S Londhe]{.me}, J Lindner, Z Chen, E Holtkamp, FR Hölzlwimmer, FP Casale, F Brechtmann, J Gagneur\
-[*bioRxiv* (preprint)]{.entry-meta}\
-[Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3){.pill}
-[PDF](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3.full.pdf){.pill}
-[Code](https://github.com/gagneurlab/funcRVP){.pill}
-:::
-:::
-:::
-
-::: {.pub-year}
-## 2023
-
-::: {.pub-list}
-::: {.entry}
-[Evaluation of input data modality choices on functional gene embeddings]{.entry-title}\
-F Brechtmann, T Bechtler, [S Londhe]{.me}, C Mertes, J Gagneur\
-[*NAR Genomics and Bioinformatics* 5(4), lqad095]{.entry-meta}\
-[Paper](https://doi.org/10.1093/nargab/lqad095){.pill}
-:::
-
-::: {.entry}
-[A systematic benchmark of machine learning methods for protein–RNA interaction prediction]{.entry-title}\
-M Horlacher, G Cantini, J Hesse, P Schinke, N Goedert, [S Londhe]{.me}, L Moyon, A Marsico\
-[*Briefings in Bioinformatics* 24(5), bbad307]{.entry-meta}\
-[Paper](https://doi.org/10.1093/bib/bbad307){.pill}
-:::
-:::
-:::
+{{< cv-publications >}}

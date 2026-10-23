@@ -1,0 +1,18 @@
+# Separate Quarto project for the PDF CVs, so the website render ignores it.
+# Build with `make cv` from the repository root (see Makefile).
+project:
+  type: default
+
+format:
+  typst:
+    papersize: a4
+    margin:
+      x: 1.6cm
+      y: 1.4cm
+    mainfont: "Libertinus Serif"
+    fontsize: 10.5pt
+    keep-typ: true
+    include-in-header: cv-style.typ
+
+shortcodes:
+  - cv.lua

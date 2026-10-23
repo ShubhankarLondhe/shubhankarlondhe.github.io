@@ -3,7 +3,7 @@ project:
   resources:
     - .nojekyll
     - google1b2f9a6354627d9b.html
-    - assets/pdf/
+    - assets/cv/
 
 website:
   title: "Shubhankar Londhe"
