@@ -4,6 +4,7 @@
 --   {{< cv-section NAME >}}   one section (website: Markdown; PDF: Typst)
 --   {{< cv-document >}}       the whole PDF CV, sections ordered by
 --                             layouts[<cv-variant>] in cv.yml
+--   {{< cv-web >}}            website CV page, sections ordered by layouts.web
 --   {{< cv-publications >}}   website publication list grouped by year
 
 local stringify = pandoc.utils.stringify
@@ -368,6 +369,13 @@ return {
   end,
   ["cv-document"] = function(_, _, meta)
     return pdf_document(stringify(meta["cv-variant"] or "academic"))
+  end,
+  ["cv-web"] = function()
+    local blocks = {}
+    for _, name in ipairs(cv_data().layouts.web) do
+      for _, b in ipairs(web_section(name)) do blocks[#blocks + 1] = b end
+    end
+    return blocks
   end,
   ["cv-publications"] = function()
     return web_publications()

@@ -165,7 +165,7 @@ languages:
 layouts:
   academic: [affiliations, education, publications, skills, talks, teaching, grants, languages]
   industry: [summary, affiliations, skills, publications, education, talks, teaching, grants, languages]
-  web: [education, skills, talks, grants, languages]
+  web: [education, talks, grants, skills, languages]
 
 # Name to bold in author lists (as it appears in data/publications.bib)
 me: "Londhe, Shubhankar"

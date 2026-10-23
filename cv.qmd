@@ -12,12 +12,4 @@ shortcodes:
 [Download CV (PDF)](assets/cv/cv-academic.pdf){.pill download="Shubhankar_Londhe_CV.pdf"}
 [Industry CV (PDF)](assets/cv/cv-industry.pdf){.pill download="Shubhankar_Londhe_CV_industry.pdf"}
 
-{{< cv-section education >}}
-
-{{< cv-section skills >}}
-
-{{< cv-section talks >}}
-
-{{< cv-section grants >}}
-
-{{< cv-section languages >}}
+{{< cv-web >}}
