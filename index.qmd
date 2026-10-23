@@ -35,6 +35,9 @@ include-in-header:
         "Rare genetic variants",
         "Variant effect prediction",
         "UK Biobank",
+        "All of Us",
+        "Genomics England",
+        "Solve-RD",
         "Machine learning"
       ],
       "sameAs": [
@@ -52,7 +55,7 @@ about:
   image-shape: round
 ---
 
-I am a computational biology PhD student with [Prof. Julien Gagneur](https://www.professoren.tum.de/en/gagneur-julien) at the Technical University of Munich (TUM) and Helmholtz Munich. I'm curious about how rare genetic variants influence complex traits and diseases, and I explore these questions using large biomedical datasets like the UK Biobank and Solve-RD.
+I am a computational biology PhD student with [Prof. Julien Gagneur](https://www.professoren.tum.de/en/gagneur-julien) at the Technical University of Munich (TUM) and Helmholtz Munich. I'm curious about how rare genetic variants influence complex traits and diseases, and I explore these questions using large biobanks and patient cohorts, including the UK Biobank, All of Us, Genomics England and Solve-RD.
 
 In summer 2026 I spent three months at the Broad Institute of MIT and Harvard with [Hilary Finucane](https://www.finucanelab.org) and [Konrad Karczewski](https://konradjk.github.io), funded by an EMBO Scientific Exchange Grant.
 
@@ -60,7 +63,7 @@ Previously, I completed my Bachelor's and Master's in Science at the Indian Inst
 
 ## Highlighted work
 
-- **Phenotypes of ultra-rare variant carriers benchmark variant effect scores.** bioRxiv, 2026. [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)
+- **Phenotypes of ultra-rare variant carriers benchmark variant effect scores.** bioRxiv, 2026 (under review). [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)
 - **Functional gene embeddings improve rare variant polygenic risk scores.** bioRxiv, 2024. [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3) · [Code](https://github.com/gagneurlab/funcRVP)
 
 [All publications →](publications.qmd)

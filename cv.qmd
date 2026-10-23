@@ -20,20 +20,37 @@ Member of the Munich School for Data Science (MUDS) PhD program
 :::
 
 ::: {.cv-row}
-[2020–2022]{.cv-date}
+[2017–2022]{.cv-date}
 
 ::: {}
-**Master of Science**\
+**BS-MS Dual Degree, Mathematics**\
 Indian Institute of Science Education and Research (IISER), Pune, India
+:::
+:::
+
+## Skills
+
+::: {.cv-row}
+[Data]{.cv-date}
+
+::: {}
+Patient and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD); variant files (VCF); biobank cloud platforms (UK Biobank RAP on DNAnexus, All of Us Researcher Workbench, Genomics England Research Environment)
 :::
 :::
 
 ::: {.cv-row}
-[2017–2020]{.cv-date}
+[Machine learning]{.cv-date}
 
 ::: {}
-**Bachelor of Science**\
-Indian Institute of Science Education and Research (IISER), Pune, India
+Training and evaluating machine learning models (PyTorch, GPU computing)
+:::
+:::
+
+::: {.cv-row}
+[Programming]{.cv-date}
+
+::: {}
+Python (PyTorch, pandas, optuna), R (ggplot2, tidyverse), Snakemake, SLURM, Git, bash
 :::
 :::
 

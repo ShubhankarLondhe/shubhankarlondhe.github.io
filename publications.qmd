@@ -14,7 +14,7 @@ See also [Google Scholar](https://scholar.google.com/citations?user=1gOQMKMAAAAJ
 ::: {.entry}
 [Phenotypes of ultra-rare variant carriers benchmark variant effect scores]{.entry-title}\
 [S Londhe]{.me}, E Holtkamp, G Tsitsiridis, A Starovoit, P Tomaz da Silva, J Hingerl, H Finucane, J Gagneur\
-[*bioRxiv* (preprint)]{.entry-meta}\
+[*bioRxiv* (preprint, under review)]{.entry-meta}\
 [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1){.pill}
 [PDF](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1.full.pdf){.pill}
 [Code](https://github.com/gagneurlab/ukbbgym){.pill}
