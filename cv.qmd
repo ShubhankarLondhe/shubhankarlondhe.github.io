@@ -109,7 +109,7 @@ Quantitative modelling of engineered synthetic operon systems in bacteria.
 [Data]{.cv-date}
 
 ::: {}
-Patient and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD); variant files (VCF); biobank cloud platforms
+Patient and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD); variant files (VCF); biobank cloud platforms (UK Biobank RAP on DNAnexus, All of Us Researcher Workbench, Genomics England Research Environment)
 :::
 :::
 
