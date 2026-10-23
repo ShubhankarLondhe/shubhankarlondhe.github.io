@@ -28,6 +28,32 @@ Indian Institute of Science Education and Research (IISER), Pune, India
 :::
 :::
 
+## Skills
+
+::: {.cv-row}
+[Data]{.cv-date}
+
+::: {}
+Patient and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD); variant files (VCF); biobank cloud platforms (UK Biobank RAP on DNAnexus, All of Us Researcher Workbench, Genomics England Research Environment)
+:::
+:::
+
+::: {.cv-row}
+[Machine learning]{.cv-date}
+
+::: {}
+Training and evaluating machine learning models (PyTorch, GPU computing)
+:::
+:::
+
+::: {.cv-row}
+[Programming]{.cv-date}
+
+::: {}
+Python (PyTorch, pandas, optuna), R (ggplot2, tidyverse), Snakemake, SLURM, Git, bash
+:::
+:::
+
 ## Talks
 
 ::: {.cv-row}
@@ -91,32 +117,6 @@ Quantitative modelling of engineered synthetic operon systems in bacteria.
 
 ::: {}
 **All India Rank 51**, IISER Aptitude Test
-:::
-:::
-
-## Skills
-
-::: {.cv-row}
-[Data]{.cv-date}
-
-::: {}
-Patient and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD); variant files (VCF); biobank cloud platforms (UK Biobank RAP on DNAnexus, All of Us Researcher Workbench, Genomics England Research Environment)
-:::
-:::
-
-::: {.cv-row}
-[Machine learning]{.cv-date}
-
-::: {}
-Training and evaluating machine learning models (PyTorch, GPU computing)
-:::
-:::
-
-::: {.cv-row}
-[Programming]{.cv-date}
-
-::: {}
-Python (PyTorch, pandas, optuna), R (ggplot2, tidyverse), Snakemake, SLURM, Git, bash
 :::
 :::
 
