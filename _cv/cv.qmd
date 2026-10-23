@@ -1,0 +1,5 @@
+---
+pagetitle: "Shubhankar Londhe – CV"
+---
+
+{{< cv-document >}}

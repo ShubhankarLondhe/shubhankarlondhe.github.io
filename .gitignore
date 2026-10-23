@@ -3,3 +3,9 @@ _site/
 .DS_Store
 
 **/*.quarto_ipynb
+
+# Generated CV files (built by make cv)
+/assets/cv/
+/_cv/cv.typ
+/_cv/cv_files/
+/_cv/*.pdf
