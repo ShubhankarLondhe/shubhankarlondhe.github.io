@@ -2,8 +2,7 @@
 --
 -- Shortcodes:
 --   {{< cv-section NAME >}}   one section (website: Markdown; PDF: Typst)
---   {{< cv-document >}}       the whole PDF CV, sections ordered by
---                             layouts[<cv-variant>] in cv.yml
+--   {{< cv-document >}}       the whole PDF CV, sections ordered by layouts.pdf
 --   {{< cv-web >}}            website CV page, sections ordered by layouts.web
 --   {{< cv-publications >}}   website publication list grouped by year
 
@@ -197,7 +196,7 @@ end
 ---------------------------------------------------------------------------
 
 local web_titles = {
-  affiliations = "Affiliations", education = "Education", publications = "Publications",
+  experience = "Experience", education = "Education", publications = "Publications",
   talks = "Talks", teaching = "Teaching", skills = "Skills", grants = "Awards & Grants",
   languages = "Languages", summary = "Summary",
 }
@@ -351,7 +350,7 @@ local function pdf_document(variant)
   for _, c in ipairs(cv.contact) do contact[#contact + 1] = ty("[" .. c.text .. "](" .. c.url .. ")") end
   local blocks = { raw("#cv-header(" .. ty(cv.name) .. ", (" .. table.concat(contact, ", ") .. ",))") }
   local order = cv.layouts[variant]
-  assert(order, "unknown cv-variant '" .. tostring(variant) .. "'")
+  assert(order, "missing layouts." .. variant .. " in data/cv.yml")
   for _, name in ipairs(order) do
     for _, b in ipairs(pdf_section(name)) do blocks[#blocks + 1] = b end
   end
@@ -367,8 +366,8 @@ return {
     local name = stringify(args[1])
     return is_pdf() and pdf_section(name) or web_section(name)
   end,
-  ["cv-document"] = function(_, _, meta)
-    return pdf_document(stringify(meta["cv-variant"] or "academic"))
+  ["cv-document"] = function()
+    return pdf_document("pdf")
   end,
   ["cv-web"] = function()
     local blocks = {}

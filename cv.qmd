@@ -9,7 +9,6 @@ shortcodes:
 
 <!-- Content comes from data/cv.yml; edit it there. The PDFs are built from the same file (make cv). -->
 
-[Download CV (PDF)](assets/cv/cv-academic.pdf){.pill download="Shubhankar_Londhe_CV.pdf"}
-[Industry CV (PDF)](assets/cv/cv-industry.pdf){.pill download="Shubhankar_Londhe_CV_industry.pdf"}
+[Download CV (PDF)](assets/cv/Shubhankar_Londhe_CV.pdf){.pill download="Shubhankar_Londhe_CV.pdf"}
 
 {{< cv-web >}}

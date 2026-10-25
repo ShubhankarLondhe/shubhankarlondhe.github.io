@@ -28,12 +28,12 @@ quarto preview
 
 ## CV
 
-`data/cv.yml` and `data/publications.bib` are the single source for the CV page, the Publications page and two PDFs, rendered with Typst by `_cv/cv.lua`:
+`data/cv.yml` and `data/publications.bib` are the single source for the CV page, the Publications page and the PDF CV, rendered with Typst by `_cv/cv.lua`:
 
 ```bash
-make cv        # assets/cv/cv-academic.pdf and assets/cv/cv-industry.pdf
+make cv        # assets/cv/Shubhankar_Londhe_CV.pdf
 ```
 
-Section order for each version is set under `layouts:` in `data/cv.yml`. The PDFs are not committed; the GitHub Action builds them on every deploy.
+Section order for the PDF and the website page is set under `layouts:` in `data/cv.yml`. The PDF is not committed; the GitHub Action builds it on every deploy.
 
 The site has no executable code, so it needs only Quarto (no Python or R environment). Python code cells would work too, but the GitHub Action would then need a Python setup step.
