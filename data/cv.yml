@@ -24,42 +24,41 @@ contact:
 summary: >-
   Computational biologist (PhD, TUM and Helmholtz Munich) building methods and
   benchmarks for rare-variant effects in human disease. Experienced with
-  patient-level genetic data on the UK Biobank RAP, All of Us Researcher
-  Workbench and Genomics England Research Environment, and with machine
-  learning in PyTorch.
+  patient-level genetic data from the UK Biobank, All of Us, Genomics England,
+  and Solve-RD, and with machine learning in PyTorch.
 
 # Work history, shown as "Experience" in the PDF. Bullets restate facts from
 # the education, publications, skills and teaching entries below.
 experience:
-  - title: "Doctoral Researcher, Gagneur Lab"
+  - title: "Doctoral Researcher"
+    lead: "Prof. Julien Gagneur"
     org: "Technical University of Munich & Helmholtz Munich"
     location: "Munich, Germany"
     start: "10.2022"
     end: "Present"
     details:
-      - "Develop methods to quantify rare-variant effects on disease and complex traits from patient-level and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD)"
-      - "Built UKBBGym, a benchmark of variant effect predictors against phenotypes of ultra-rare variant carriers (first author, under review)"
-      - "Developed FuncRVP, a Bayesian rare-variant association model using functional gene embeddings (first author)"
+      - "Developing methods to quantify rare-variant effects on disease and complex traits from patient-level and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD)"
+      - "Developed workflows for converting biobank-scale genetic and phenotypic data to ML-friendly formats ([ukbb-utils-gagneur](https://github.com/gagneurlab/ukbb-utils-gagneur))"
+      - "Built [UKBBGym](https://github.com/gagneurlab/ukbbgym), a benchmark of variant effect predictors against phenotypes of ultra-rare variant carriers (first author, under review)"
+      - "Developed [FuncRVP](https://github.com/gagneurlab/funcRVP), a Bayesian rare-variant association model using functional gene embeddings (first author)"
       - "Supervised 3 Master's theses and multiple graduate and undergraduate interns"
   - title: "Visiting Researcher"
+    lead: "Dr. Konrad Karczewski and Dr. Hilary Finucane"
     org: "Broad Institute of MIT and Harvard"
     location: "Cambridge, USA"
     start: "06.2026"
     end: "08.2026"
-    details:
-      - "Research exchange with Hilary Finucane and Konrad Karczewski, funded by an EMBO Scientific Exchange Grant"
 
 education:
   - title: "PhD, Computational Biology"
     org: "Technical University of Munich & Helmholtz Munich"
     location: "Munich, Germany"
+    note: "Munich School for Data Science (MUDS) PhD program"
     start: "10.2022"
     end: "Present"
     # Shown on the website CV page as well
     web-details:
       - "Member of the Munich School for Data Science (MUDS) PhD program"
-    details:
-      - "Supervisor: Prof. Dr. Julien Gagneur · Munich School for Data Science (MUDS) PhD program"
   - title: "BS-MS Dual Degree, Mathematics"
     org: "Indian Institute of Science Education and Research (IISER)"
     location: "Pune, India"
@@ -91,6 +90,12 @@ talks:
     details:
       - "Functional gene embeddings improve rare variant polygenic risk scores"
 
+# The PDF shows this one line instead of the full course list below
+teaching-summary:
+  title: "Teaching team for 5 TUM courses in machine learning, human genetics and data science"
+  start: "10.2022"
+  end: "Present"
+
 teaching:
   - title: "Machine Learning for Human Genetics"
     org: "Technical University of Munich"
@@ -119,12 +124,9 @@ teaching:
     url: "https://www.cs.cit.tum.de/cmm/training-and-teaching/summer-term-2026/machine-learning-for-regulatory-genomics/"
 
 skills:
-  - title: "Biobank platforms"
+  - title: "Biobank data"
     details:
-      - "UK Biobank RAP (DNAnexus), All of Us Researcher Workbench, Genomics England Research Environment"
-  - title: "Data"
-    details:
-      - "Patient-level and biobank-scale genetic data, rare-disease cohorts, variant call files (VCF)"
+      - "UK Biobank RAP (DNAnexus), All of Us Researcher Workbench, Genomics England Research Environment; patient-level and rare-disease cohort data, VCF"
   - title: "Machine learning"
     details:
       - "Model training and evaluation in PyTorch, GPU computing"

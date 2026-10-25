@@ -9,10 +9,11 @@ format:
   typst:
     papersize: a4
     margin:
-      x: 1.6cm
-      y: 1.4cm
-    mainfont: "Libertinus Serif"
-    fontsize: 11pt
+      x: 2cm
+      y: 1.7cm
+    mainfont: "Source Sans 3"
+    fontsize: 10.5pt
+    font-paths: fonts
     keep-typ: true
     include-in-header: cv-style.typ
     output-file: Shubhankar_Londhe_CV.pdf
