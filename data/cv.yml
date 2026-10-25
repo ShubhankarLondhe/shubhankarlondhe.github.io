@@ -31,35 +31,37 @@ summary: >-
 # Work history, shown as "Experience" in the PDF. Bullets restate facts from
 # the education, publications, skills and teaching entries below.
 experience:
-  - title: "Doctoral Researcher, Gagneur Lab"
+  - title: "Doctoral Researcher"
+    lead: "Prof. Julien Gagneur"
     org: "Technical University of Munich & Helmholtz Munich"
     location: "Munich, Germany"
     start: "10.2022"
     end: "Present"
     details:
-      - "Develop methods to quantify rare-variant effects on disease and complex traits from patient-level and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD)"
+      - "Developing methods to quantify rare-variant effects on disease and complex traits from patient-level and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD)"
       - "Built UKBBGym, a benchmark of variant effect predictors against phenotypes of ultra-rare variant carriers (first author, under review)"
       - "Developed FuncRVP, a Bayesian rare-variant association model using functional gene embeddings (first author)"
       - "Supervised 3 Master's theses and multiple graduate and undergraduate interns"
   - title: "Visiting Researcher"
+    lead: "Dr. Konrad Karczewski and Dr. Hilary Finucane"
     org: "Broad Institute of MIT and Harvard"
     location: "Cambridge, USA"
     start: "06.2026"
     end: "08.2026"
     details:
-      - "Research exchange with Hilary Finucane and Konrad Karczewski, funded by an EMBO Scientific Exchange Grant"
+      - "3-month research exchange funded by an EMBO Scientific Exchange Grant"
 
 education:
   - title: "PhD, Computational Biology"
+    lead: "Prof. Julien Gagneur"
     org: "Technical University of Munich & Helmholtz Munich"
     location: "Munich, Germany"
+    note: "Munich School for Data Science (MUDS) PhD program"
     start: "10.2022"
     end: "Present"
     # Shown on the website CV page as well
     web-details:
       - "Member of the Munich School for Data Science (MUDS) PhD program"
-    details:
-      - "Supervisor: Prof. Dr. Julien Gagneur · Munich School for Data Science (MUDS) PhD program"
   - title: "BS-MS Dual Degree, Mathematics"
     org: "Indian Institute of Science Education and Research (IISER)"
     location: "Pune, India"

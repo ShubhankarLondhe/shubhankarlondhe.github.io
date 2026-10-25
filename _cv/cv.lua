@@ -344,11 +344,12 @@ local function pdf_section(name)
   end
   for _, e in ipairs(cv[name] or {}) do
     local title = e.url and ("[" .. e.title .. "](" .. e.url .. ")") or e.title
-    local sub = join_nonempty({ e.org, e.location }, ", ")
+    local sub = join_nonempty({ join_nonempty({ e.org, e.location }, ", "), e.note }, " · ")
     if name == "teaching" then sub = "" end
     blocks[#blocks + 1] = raw("#cv-entry(" ..
         "title: " .. ty(title) ..
         ", date: " .. ty(date_range(e.start, e["end"], "pdf")) ..
+        ", lead: " .. ty(e.lead) ..
         ", sub: " .. ty(sub) ..
         ", details: " .. ty_list(e.details) ..
         -- Only job and degree titles are emphasised; everything else stays regular

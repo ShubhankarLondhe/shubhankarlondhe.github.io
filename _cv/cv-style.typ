@@ -43,7 +43,7 @@
 
 #let cv-summary(body) = block(below: 0.2em)[#body]
 
-#let cv-entry(title: [], date: [], sub: [], details: (), strong: false) = block(below: 1.1em, breakable: false)[
+#let cv-entry(title: [], date: [], lead: [], sub: [], details: (), strong: false) = block(below: 1.1em, breakable: false)[
   #set par(spacing: 0.45em)
   #set block(spacing: 0.45em)
   // Title and date on one text line, so parsers read them together
@@ -51,6 +51,8 @@
       show link: set text(fill: ink)
       text(weight: if strong { "semibold" } else { "regular" })[#title]
     } #h(1fr) #text(fill: muted, size: 0.95em)[#date]]
+  // Optional second bold line, e.g. the supervisor or host
+  #if lead != [] { block(text(weight: "semibold")[#lead]) }
   #if sub != [] { block(text(fill: muted)[#sub]) }
   // A single detail reads better as a plain line than as a one-item list
   #if details.len() == 1 { block(text(fill: muted)[#details.at(0)]) }
