@@ -12,7 +12,7 @@ format:
       x: 1.6cm
       y: 1.4cm
     mainfont: "Libertinus Serif"
-    fontsize: 10.5pt
+    fontsize: 11pt
     keep-typ: true
     include-in-header: cv-style.typ
     output-file: Shubhankar_Londhe_CV.pdf

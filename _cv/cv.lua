@@ -138,13 +138,24 @@ end
 -- Author list as Markdown. Long lists keep the first five, me and the last two.
 local function author_list(authors, style)
   local function name(a)
-    local n = style == "web" and (initials(a.given) .. " " .. a.family) or (a.given .. " " .. a.family)
+    local n = initials(a.given) .. " " .. a.family
     if not is_me(a) then return n end
     return style == "web" and ("[" .. n .. "]{.me}") or ("**" .. n .. "**")
   end
   local n = #authors
   local parts = {}
-  if n <= 10 then
+  -- The PDF keeps author lists short: first three, me, last author
+  if style == "pdf" and n > 6 then
+    for i = 1, 3 do parts[#parts + 1] = name(authors[i]) end
+    local mine
+    for i = 4, n - 1 do if is_me(authors[i]) then mine = i end end
+    if mine then
+      if mine > 4 then parts[#parts + 1] = "…" end
+      parts[#parts + 1] = name(authors[mine])
+    end
+    if not mine or mine < n - 1 then parts[#parts + 1] = "…" end
+    parts[#parts + 1] = name(authors[n])
+  elseif n <= 10 then
     for _, a in ipairs(authors) do parts[#parts + 1] = name(a) end
   else
     for i = 1, 5 do parts[#parts + 1] = name(authors[i]) end
@@ -309,10 +320,10 @@ local function pdf_section(name)
     for _, p in ipairs(publications()) do
       local links = {}
       for _, l in ipairs(pub_links(p)) do links[#links + 1] = "[" .. l[1] .. "](" .. l[2] .. ")" end
-      local md = author_list(p.authors, "pdf") .. ". " .. p.title .. ". " .. venue(p) ..
-          " (" .. p.year .. ")" .. (p.status and (", " .. p.status) or "") .. "." ..
-          (#links > 0 and (" " .. table.concat(links, " · ")) or "")
-      items[#items + 1] = ty(md)
+      local meta = author_list(p.authors, "pdf") .. ". " .. venue(p) .. " (" .. p.year .. ")" ..
+          (p.status and (", " .. p.status) or "") ..
+          (#links > 0 and (" · " .. table.concat(links, " · ")) or "")
+      items[#items + 1] = "(" .. ty(p.title) .. ", " .. ty(meta) .. ")"
     end
     blocks[#blocks + 1] = raw("#cv-publications((" .. table.concat(items, ", ") .. ",))")
     return blocks
@@ -348,18 +359,9 @@ local function pdf_document(variant)
   local cv = cv_data()
   local contact = {}
   for _, c in ipairs(cv.contact) do contact[#contact + 1] = ty("[" .. c.text .. "](" .. c.url .. ")") end
-  -- Typst can only read files inside _cv/, so copy the photo next to cv.qmd
-  local photo = "none"
-  if cv.photo then
-    local ext = cv.photo:match("%.%w+$") or ".jpg"
-    local src = assert(io.open(quarto.utils.resolve_path("../" .. cv.photo), "rb"), "cannot open " .. cv.photo)
-    local dst = assert(io.open(quarto.utils.resolve_path("cv-photo" .. ext), "wb"))
-    dst:write(src:read("a"))
-    src:close()
-    dst:close()
-    photo = '"cv-photo' .. ext .. '"'
-  end
-  local blocks = { raw("#cv-header(" .. ty(cv.name) .. ", (" .. table.concat(contact, ", ") .. ",), photo: " .. photo .. ")") }
+  -- Quarto's article template justifies text; ragged-right reads better here
+  local blocks = { raw("#set par(justify: false)"),
+    raw("#cv-header(" .. ty(cv.name) .. ", (" .. table.concat(contact, ", ") .. ",))") }
   local order = cv.layouts[variant]
   assert(order, "missing layouts." .. variant .. " in data/cv.yml")
   for _, name in ipairs(order) do
