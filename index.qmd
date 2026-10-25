@@ -55,11 +55,11 @@ about:
   image-shape: round
 ---
 
-I am a computational biology PhD student with [Prof. Julien Gagneur](https://www.professoren.tum.de/en/gagneur-julien) at the Technical University of Munich (TUM) and Helmholtz Munich. I'm curious about how rare genetic variants influence complex traits and diseases, and I explore these questions using large biobanks and patient cohorts, including the UK Biobank, All of Us, Genomics England and Solve-RD.
+I'm a computational biology PhD student with [Prof. Julien Gagneur](https://www.professoren.tum.de/en/gagneur-julien) at the Technical University of Munich (TUM) and Helmholtz Munich. I build methods to understand how rare genetic variants shape human traits and disease, using large biomedical datasets like the UK Biobank, All of Us, Genomics England and Solve-RD. Along the way I train and evaluate machine learning models in PyTorch, and build workflows that turn these huge datasets into something models can use.
 
 In summer 2026 I spent three months at the Broad Institute of MIT and Harvard with [Hilary Finucane](https://www.finucanelab.org) and [Konrad Karczewski](https://konradjk.github.io), funded by an EMBO Scientific Exchange Grant.
 
-Previously, I completed my Bachelor's and Master's in Science at the Indian Institute of Science Education and Research (IISER), Pune, in India.
+I did my Bachelor's and Master's in Science at the Indian Institute of Science Education and Research (IISER), Pune, in India.
 
 ## Highlighted work
 
