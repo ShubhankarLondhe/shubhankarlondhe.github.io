@@ -5,14 +5,14 @@
 # Public data only: no phone, home address, date of birth or referee contacts.
 
 name: "Shubhankar Londhe"
+# Photo in the PDF header (path from the repository root). Remove the line to
+# leave it out, e.g. for applications in the US or UK.
+photo: "assets/img/prof_pic.jpg"
 
 contact:
   - label: "Email"
     text: "shubhankar.londhe@gmail.com"
     url: "mailto:shubhankar.londhe@gmail.com"
-  - label: "Work email"
-    text: "shubhankar.londhe@cit.tum.de"
-    url: "mailto:shubhankar.londhe@cit.tum.de"
   - label: "ORCID"
     text: "orcid.org/0000-0002-1220-6650"
     url: "https://orcid.org/0000-0002-1220-6650"
@@ -22,9 +22,6 @@ contact:
   - label: "GitHub"
     text: "github.com/ShubhankarLondhe"
     url: "https://github.com/ShubhankarLondhe"
-  - label: "LinkedIn"
-    text: "linkedin.com/in/shubhankar-londhe-a9825a135"
-    url: "https://www.linkedin.com/in/shubhankar-londhe-a9825a135"
 
 # TODO(Shubhankar): draft wording.
 summary: >-

@@ -10,7 +10,7 @@ CV := assets/cv/Shubhankar_Londhe_CV.pdf
 
 cv: $(CV)
 
-$(CV): data/cv.yml data/publications.bib _cv/cv.qmd _cv/cv.lua _cv/cv-style.typ _cv/_quarto.yml
+$(CV): data/cv.yml data/publications.bib assets/img/prof_pic.jpg _cv/cv.qmd _cv/cv.lua _cv/cv-style.typ _cv/_quarto.yml
 	cd _cv && quarto render cv.qmd
 	mkdir -p assets/cv
 	mv _cv/Shubhankar_Londhe_CV.pdf $@
@@ -19,4 +19,4 @@ site: cv
 	quarto render
 
 clean:
-	rm -rf assets/cv _cv/cv.typ _cv/cv_files _cv/*.pdf
+	rm -rf assets/cv _cv/cv.typ _cv/cv_files _cv/*.pdf _cv/cv-photo.*

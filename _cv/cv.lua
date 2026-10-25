@@ -348,7 +348,18 @@ local function pdf_document(variant)
   local cv = cv_data()
   local contact = {}
   for _, c in ipairs(cv.contact) do contact[#contact + 1] = ty("[" .. c.text .. "](" .. c.url .. ")") end
-  local blocks = { raw("#cv-header(" .. ty(cv.name) .. ", (" .. table.concat(contact, ", ") .. ",))") }
+  -- Typst can only read files inside _cv/, so copy the photo next to cv.qmd
+  local photo = "none"
+  if cv.photo then
+    local ext = cv.photo:match("%.%w+$") or ".jpg"
+    local src = assert(io.open(quarto.utils.resolve_path("../" .. cv.photo), "rb"), "cannot open " .. cv.photo)
+    local dst = assert(io.open(quarto.utils.resolve_path("cv-photo" .. ext), "wb"))
+    dst:write(src:read("a"))
+    src:close()
+    dst:close()
+    photo = '"cv-photo' .. ext .. '"'
+  end
+  local blocks = { raw("#cv-header(" .. ty(cv.name) .. ", (" .. table.concat(contact, ", ") .. ",), photo: " .. photo .. ")") }
   local order = cv.layouts[variant]
   assert(order, "missing layouts." .. variant .. " in data/cv.yml")
   for _, name in ipairs(order) do

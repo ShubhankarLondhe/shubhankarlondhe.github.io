@@ -19,14 +19,26 @@
   #line(length: 100%, stroke: 0.5pt + accent)
 ]
 
-#let cv-header(name, contacts) = {
-  align(center)[
+#let cv-header(name, contacts, photo: none) = {
+  // box() keeps each contact item on one line
+  let n = contacts.len()
+  let info = [
     #text(size: 2.0em, weight: "bold")[#name]
     #v(-0.3em)
-    // box() keeps each contact item on one line
-    #let n = contacts.len()
     #text(size: 0.9em)[#contacts.enumerate().map(((i, c)) => box(if i < n - 1 [#c #h(0.3em)·] else [#c])).join(h(0.3em))]
   ]
+  if photo == none {
+    align(center, info)
+  } else {
+    // Text stays first in reading order; the photo is a separate image
+    grid(
+      columns: (1fr, auto),
+      column-gutter: 1.2em,
+      align: (left + horizon, right + horizon),
+      info,
+      box(clip: true, radius: 50%, width: 2.6cm, height: 2.6cm, image(photo, width: 2.6cm, height: 2.6cm, fit: "cover")),
+    )
+  }
 }
 
 #let cv-summary(body) = block(below: 0.5em)[#body]
