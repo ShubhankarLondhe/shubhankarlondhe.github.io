@@ -10,9 +10,6 @@ contact:
   - label: "Email"
     text: "shubhankar.londhe@gmail.com"
     url: "mailto:shubhankar.londhe@gmail.com"
-  - label: "Work email"
-    text: "shubhankar.londhe@cit.tum.de"
-    url: "mailto:shubhankar.londhe@cit.tum.de"
   - label: "ORCID"
     text: "orcid.org/0000-0002-1220-6650"
     url: "https://orcid.org/0000-0002-1220-6650"
@@ -22,17 +19,14 @@ contact:
   - label: "GitHub"
     text: "github.com/ShubhankarLondhe"
     url: "https://github.com/ShubhankarLondhe"
-  - label: "LinkedIn"
-    text: "linkedin.com/in/shubhankar-londhe-a9825a135"
-    url: "https://www.linkedin.com/in/shubhankar-londhe-a9825a135"
 
 # TODO(Shubhankar): draft wording.
 summary: >-
-  Computational biologist (PhD candidate, TUM and Helmholtz Munich) working on
-  rare-variant effects in complex traits and disease. Hands-on experience with
+  Computational biologist (PhD, TUM and Helmholtz Munich) building methods and
+  benchmarks for rare-variant effects in human disease. Experienced with
   patient-level genetic data on the UK Biobank RAP, All of Us Researcher
-  Workbench and Genomics England Research Environment, and with training and
-  evaluating machine learning models in PyTorch.
+  Workbench and Genomics England Research Environment, and with machine
+  learning in PyTorch.
 
 # Work history, shown as "Experience" in the PDF. Bullets restate facts from
 # the education, publications, skills and teaching entries below.
@@ -43,20 +37,17 @@ experience:
     start: "10.2022"
     end: "Present"
     details:
-      - "Develop methods to capture rare-variant effects in disease and complex traits"
-      - "Analyse patient-level and biobank-scale genetic data (UK Biobank, All of Us, Genomics England) and rare-disease cohorts (Solve-RD) on the UK Biobank RAP (DNAnexus), All of Us Researcher Workbench and Genomics England Research Environment"
-      - "Built UKBBGym, a benchmark that evaluates variant effect predictors against phenotypes of ultra-rare variant carriers in the UK Biobank (first author, under review)"
-      - "Developed FuncRVP, a Bayesian rare variant association framework that uses functional gene embeddings (first author)"
-      - "Train and evaluate machine learning models in PyTorch on GPUs"
-      - "Supervised 3 Master's theses and multiple graduate and undergraduate interns; teaching team for 5 TUM courses"
-      - "Affiliated with Helmholtz Munich since Jul 2024"
+      - "Develop methods to quantify rare-variant effects on disease and complex traits from patient-level and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD)"
+      - "Built UKBBGym, a benchmark of variant effect predictors against phenotypes of ultra-rare variant carriers (first author, under review)"
+      - "Developed FuncRVP, a Bayesian rare-variant association model using functional gene embeddings (first author)"
+      - "Supervised 3 Master's theses and multiple graduate and undergraduate interns"
   - title: "Visiting Researcher"
     org: "Broad Institute of MIT and Harvard"
     location: "Cambridge, USA"
     start: "06.2026"
     end: "08.2026"
     details:
-      - "3-month research exchange with Hilary Finucane and Konrad Karczewski, funded by an EMBO Scientific Exchange Grant"
+      - "Research exchange with Hilary Finucane and Konrad Karczewski, funded by an EMBO Scientific Exchange Grant"
 
 education:
   - title: "PhD, Computational Biology"
@@ -68,17 +59,16 @@ education:
     web-details:
       - "Member of the Munich School for Data Science (MUDS) PhD program"
     details:
-      - "Supervisor: Prof. Dr. Julien Gagneur"
-      - "Member of the Munich School for Data Science (MUDS) PhD program"
+      - "Supervisor: Prof. Dr. Julien Gagneur · Munich School for Data Science (MUDS) PhD program"
   - title: "BS-MS Dual Degree, Mathematics"
     org: "Indian Institute of Science Education and Research (IISER)"
     location: "Pune, India"
     start: "08.2017"
     end: "05.2022"
     details:
-      - "GPA: 8.5/10"
-      - "Master's thesis (supervisor: Dr. Annalisa Marsico): explainable AI methods to quantify secondary-structure binding preferences of RNA-binding proteins"
-      - "Research assistant (supervisor: Prof. M. S. Madhusudhan): deep learning algorithm to learn structural patterns from protein micro-environments"
+      - "GPA 8.5/10"
+      - "Master's thesis (Dr. Annalisa Marsico): explainable AI for secondary-structure binding preferences of RNA-binding proteins"
+      - "Research assistant (Prof. M. S. Madhusudhan): deep learning on structural patterns of protein micro-environments"
 
 talks:
   - title: "ERDERA Science Club Series"
@@ -134,21 +124,20 @@ skills:
       - "UK Biobank RAP (DNAnexus), All of Us Researcher Workbench, Genomics England Research Environment"
   - title: "Data"
     details:
-      - "Patient and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD); variant call files (VCF)"
+      - "Patient-level and biobank-scale genetic data, rare-disease cohorts, variant call files (VCF)"
   - title: "Machine learning"
     details:
-      - "Training and evaluating machine learning models (PyTorch, GPU computing)"
+      - "Model training and evaluation in PyTorch, GPU computing"
   - title: "Programming"
     details:
-      - "5+ years: Python (PyTorch, pandas, optuna), LaTeX"
-      - "3+ years: GPU computing, Snakemake, Git, SLURM, bash, R (ggplot2, tidyverse)"
+      - "Python, LaTeX (5+ years); R, Snakemake, SLURM, Git, bash (3+ years)"
 
 grants:
   - title: "EMBO Scientific Exchange Grant #12502"
     start: "06.2026"
     end: "08.2026"
     details:
-      - "3-month research exchange at the Broad Institute of MIT and Harvard with Hilary Finucane and Konrad Karczewski"
+      - "3-month research exchange at the Broad Institute of MIT and Harvard"
   - title: "iGEM (International Genetically Engineered Machine), Silver Medal"
     start: "11.2019"
     details:
