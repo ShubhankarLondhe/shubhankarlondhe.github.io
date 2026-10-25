@@ -1,6 +1,6 @@
 # Single source of truth for the CV.
 # Rendered by _cv/cv.lua into the website CV page (cv.qmd) and the PDFs
-# (_cv/cv.qmd -> assets/cv/cv-academic.pdf, assets/cv/cv-industry.pdf).
+# (_cv/cv.qmd -> assets/cv/Shubhankar_Londhe_CV.pdf).
 # Values are Markdown. Quote anything containing '#', ':' or '@'.
 # Public data only: no phone, home address, date of birth or referee contacts.
 
@@ -26,7 +26,7 @@ contact:
     text: "linkedin.com/in/shubhankar-londhe-a9825a135"
     url: "https://www.linkedin.com/in/shubhankar-londhe-a9825a135"
 
-# TODO(Shubhankar): draft wording, edit before using the industry CV.
+# TODO(Shubhankar): draft wording.
 summary: >-
   Computational biologist (PhD candidate, TUM and Helmholtz Munich) working on
   rare-variant effects in complex traits and disease. Hands-on experience with
@@ -34,24 +34,29 @@ summary: >-
   Workbench and Genomics England Research Environment, and with training and
   evaluating machine learning models in PyTorch.
 
-affiliations:
+# Work history, shown as "Experience" in the PDF. Bullets restate facts from
+# the education, publications, skills and teaching entries below.
+experience:
+  - title: "Doctoral Researcher, Gagneur Lab"
+    org: "Technical University of Munich & Helmholtz Munich"
+    location: "Munich, Germany"
+    start: "10.2022"
+    end: "Present"
+    details:
+      - "Develop methods to capture rare-variant effects in disease and complex traits"
+      - "Analyse patient-level and biobank-scale genetic data (UK Biobank, All of Us, Genomics England) and rare-disease cohorts (Solve-RD) on the UK Biobank RAP (DNAnexus), All of Us Researcher Workbench and Genomics England Research Environment"
+      - "Built UKBBGym, a benchmark that evaluates variant effect predictors against phenotypes of ultra-rare variant carriers in the UK Biobank (first author, under review)"
+      - "Developed FuncRVP, a Bayesian rare variant association framework that uses functional gene embeddings (first author)"
+      - "Train and evaluate machine learning models in PyTorch on GPUs"
+      - "Supervised 3 Master's theses and multiple graduate and undergraduate interns; teaching team for 5 TUM courses"
+      - "Affiliated with Helmholtz Munich since Jul 2024"
   - title: "Visiting Researcher"
     org: "Broad Institute of MIT and Harvard"
     location: "Cambridge, USA"
     start: "06.2026"
     end: "08.2026"
     details:
-      - "Hosts: Hilary Finucane, Konrad Karczewski"
-  - title: "Doctoral Researcher"
-    org: "Helmholtz Munich"
-    location: "Munich, Germany"
-    start: "07.2024"
-    end: "Present"
-  - title: "Doctoral Researcher"
-    org: "Technical University of Munich"
-    location: "Munich, Germany"
-    start: "10.2022"
-    end: "Present"
+      - "3-month research exchange with Hilary Finucane and Konrad Karczewski, funded by an EMBO Scientific Exchange Grant"
 
 education:
   - title: "PhD, Computational Biology"
@@ -64,9 +69,7 @@ education:
       - "Member of the Munich School for Data Science (MUDS) PhD program"
     details:
       - "Supervisor: Prof. Dr. Julien Gagneur"
-      - "Methods to capture rare-variant effects in disease and complex traits, using biobank-scale data (UK Biobank, All of Us, Genomics England) and rare-disease cohorts (Solve-RD)"
       - "Member of the Munich School for Data Science (MUDS) PhD program"
-      - "Supervised 3 Master's theses and multiple graduate and undergraduate interns"
   - title: "BS-MS Dual Degree, Mathematics"
     org: "Indian Institute of Science Education and Research (IISER)"
     location: "Pune, India"
@@ -161,10 +164,9 @@ languages:
   - title: "Hindi"
     details: ["Fluent"]
 
-# Section order per output. Edit freely.
+# Section order: pdf = the downloadable CV, web = the website CV page.
 layouts:
-  academic: [affiliations, education, publications, skills, talks, teaching, grants, languages]
-  industry: [summary, affiliations, skills, publications, education, talks, teaching, grants, languages]
+  pdf: [summary, experience, skills, education, publications, talks, teaching, grants, languages]
   web: [education, talks, grants, skills, languages]
 
 # Name to bold in author lists (as it appears in data/publications.bib)

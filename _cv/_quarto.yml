@@ -1,5 +1,7 @@
 # Separate Quarto project for the PDF CVs, so the website render ignores it.
 # Build with `make cv` from the repository root (see Makefile).
+# Produces one CV, aimed at industry positions and kept ATS-friendly:
+# single column, real text, standard headings, no images or icons.
 project:
   type: default
 
@@ -13,6 +15,7 @@ format:
     fontsize: 10.5pt
     keep-typ: true
     include-in-header: cv-style.typ
+    output-file: Shubhankar_Londhe_CV.pdf
 
 shortcodes:
   - cv.lua

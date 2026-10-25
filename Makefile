@@ -1,20 +1,19 @@
-# Build the CV PDFs and the website.
-#   make cv     -> assets/cv/cv-academic.pdf, assets/cv/cv-industry.pdf
-#   make site   -> CV PDFs, then the full website in _site/
+# Build the CV PDF and the website.
+#   make cv     -> assets/cv/Shubhankar_Londhe_CV.pdf
+#   make site   -> CV PDF, then the full website in _site/
 #   make clean  -> remove generated CV files
 # Both read data/cv.yml and data/publications.bib.
 
-VARIANTS := academic industry
-PDFS := $(VARIANTS:%=assets/cv/cv-%.pdf)
+CV := assets/cv/Shubhankar_Londhe_CV.pdf
 
 .PHONY: cv site clean
 
-cv: $(PDFS)
+cv: $(CV)
 
-assets/cv/cv-%.pdf: data/cv.yml data/publications.bib _cv/cv.qmd _cv/cv.lua _cv/cv-style.typ _cv/_quarto.yml _cv/_quarto-%.yml
-	cd _cv && quarto render cv.qmd --profile $*
+$(CV): data/cv.yml data/publications.bib _cv/cv.qmd _cv/cv.lua _cv/cv-style.typ _cv/_quarto.yml
+	cd _cv && quarto render cv.qmd
 	mkdir -p assets/cv
-	mv _cv/cv-$*.pdf $@
+	mv _cv/Shubhankar_Londhe_CV.pdf $@
 
 site: cv
 	quarto render
