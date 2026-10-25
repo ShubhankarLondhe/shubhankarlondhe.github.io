@@ -7,6 +7,8 @@
 #let accent = rgb("#2f5d48")
 #let muted = rgb("#5f6b76")
 #let rule = rgb("#d5dbd7")
+// Width reserved for dates on the right (fits "Aug 2017 – May 2022")
+#let date-column = 8.5em
 
 #set document(title: "Shubhankar Londhe – CV", author: "Shubhankar Londhe")
 // Ligatures (fi, fl) and hyphenation both garble words when ATS parsers
@@ -16,6 +18,8 @@
 #set list(indent: 0.1em, body-indent: 0.55em, spacing: 0.5em, marker: text(fill: muted)[•])
 #show strong: set text(weight: "semibold")
 #show link: set text(fill: accent)
+// Keep each link on one line (e.g. "ukbb-utils-gagneur" must not split)
+#show link: box
 
 // Section headings: capitals in the accent colour above a light rule. No
 // letter spacing: tracked capitals extract as "P UBLICATIONS" in some parsers.
@@ -51,12 +55,17 @@
       show link: set text(fill: ink)
       text(weight: if strong { "semibold" } else { "regular" })[#title]
     } #h(1fr) #text(fill: muted, size: 0.95em)[#date]]
-  // Optional second bold line, e.g. the supervisor or host
-  #if lead != [] { block(text(weight: "semibold")[#lead]) }
-  #if sub != [] { block(text(fill: muted)[#sub]) }
-  // A single detail reads better as a plain line than as a one-item list
-  #if details.len() == 1 { block(text(fill: muted)[#details.at(0)]) }
-  #if details.len() > 1 { v(0.15em); list(..details) }
+  // Everything below the title stops short of the date column, so long lines
+  // wrap instead of running under the dates
+  #pad(right: date-column)[
+    // Optional second line, e.g. the supervisor or host
+    #if lead != [] { block(lead) }
+    #if sub != [] { block(sub) }
+    // Details in grey; a single detail reads better as a plain line than as
+    // a one-item list
+    #if details.len() == 1 { block(text(fill: muted)[#details.at(0)]) }
+    #if details.len() > 1 { v(0.15em); text(fill: muted, list(..details)) }
+  ]
 ]
 
 #let cv-skill(label, body) = block(below: 0.6em)[#text(weight: "semibold")[#label:] #body]
