@@ -350,7 +350,9 @@ local function pdf_section(name)
         "title: " .. ty(title) ..
         ", date: " .. ty(date_range(e.start, e["end"], "pdf")) ..
         ", sub: " .. ty(sub) ..
-        ", details: " .. ty_list(e.details) .. ")")
+        ", details: " .. ty_list(e.details) ..
+        -- Only job and degree titles are emphasised; everything else stays regular
+        ", strong: " .. ((name == "experience" or name == "education") and "true" or "false") .. ")")
   end
   return blocks
 end
