@@ -20,12 +20,13 @@ contact:
     text: "github.com/ShubhankarLondhe"
     url: "https://github.com/ShubhankarLondhe"
 
-# TODO(Shubhankar): draft wording.
 summary: >-
-  Computational biologist (PhD, TUM and Helmholtz Munich) building methods and
-  benchmarks for rare-variant effects in human disease. Experienced with
-  patient-level genetic data from the UK Biobank, All of Us, Genomics England,
-  and Solve-RD, and with machine learning in PyTorch.
+  Computational biologist (PhD, TU Munich and Helmholtz Munich) building
+  methods to understand the effects of rare variants on human traits and
+  disease, using large-scale biomedical data from the UK Biobank, All of Us,
+  Genomics England, and Solve-RD. Experienced in training and evaluating
+  machine learning models in PyTorch, and in building workflows to process
+  biomedical datasets.
 
 # Work history, shown as "Experience" in the PDF. Bullets restate facts from
 # the education, publications, skills and teaching entries below.
