@@ -210,7 +210,7 @@ end
 local web_titles = {
   experience = "Experience", education = "Education", publications = "Publications",
   talks = "Talks", teaching = "Teaching", skills = "Skills", grants = "Awards & Grants",
-  languages = "Languages", summary = "Summary",
+  languages = "Languages", summary = "Summary", references = "References",
 }
 
 local function web_row(left, lines)

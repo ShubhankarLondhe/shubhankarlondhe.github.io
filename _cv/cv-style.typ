@@ -31,15 +31,17 @@
 ]
 
 #let cv-header(name, contacts) = {
-  // Contacts on two balanced lines, separated by light bars
+  // Contacts on one line, or two balanced lines if there are more than three
   let sep = [#h(0.5em)#text(fill: rule)[|]#h(0.5em)]
   let half = calc.ceil(contacts.len() / 2)
   align(center)[
     #text(size: 2.3em, weight: "semibold")[#name]
     #v(0.1em)
     #text(size: 0.95em, fill: muted)[
-      #contacts.slice(0, half).join(sep) \
-      #contacts.slice(half).join(sep)
+      #if contacts.len() <= 3 { contacts.join(sep) } else [
+        #contacts.slice(0, half).join(sep) \
+        #contacts.slice(half).join(sep)
+      ]
     ]
   ]
   v(0.4em)
