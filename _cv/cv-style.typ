@@ -31,15 +31,17 @@
 ]
 
 #let cv-header(name, contacts) = {
-  // Contacts on two balanced lines, separated by light bars
+  // Contacts on one line, or two balanced lines if there are more than three
   let sep = [#h(0.5em)#text(fill: rule)[|]#h(0.5em)]
   let half = calc.ceil(contacts.len() / 2)
   align(center)[
     #text(size: 2.3em, weight: "semibold")[#name]
     #v(0.1em)
     #text(size: 0.95em, fill: muted)[
-      #contacts.slice(0, half).join(sep) \
-      #contacts.slice(half).join(sep)
+      #if contacts.len() <= 3 { contacts.join(sep) } else [
+        #contacts.slice(0, half).join(sep) \
+        #contacts.slice(half).join(sep)
+      ]
     ]
   ]
   v(0.4em)
@@ -48,8 +50,10 @@
 #let cv-summary(body) = block(below: 0.2em)[#body]
 
 #let cv-entry(title: [], date: [], lead: [], sub: [], details: (), strong: false) = block(below: 1.1em, breakable: false)[
-  #set par(spacing: 0.45em)
+  #set par(spacing: 0.45em, leading: 0.45em)
   #set block(spacing: 0.45em)
+  // Lines inside a bullet sit closer together than the bullets themselves
+  #set list(spacing: 0.7em)
   // Title and date on one text line, so parsers read them together
   #block[#{
       show link: set text(fill: ink)
@@ -61,16 +65,25 @@
     // Optional second line, e.g. the supervisor or host
     #if lead != [] { block(lead) }
     #if sub != [] { block(sub) }
-    // Details in grey; a single detail reads better as a plain line than as
-    // a one-item list
-    #if details.len() == 1 { block(text(fill: muted)[#details.at(0)]) }
-    #if details.len() > 1 { v(0.15em); text(fill: muted, list(..details)) }
+    // Details in grey. Experience and education always use bullets; elsewhere
+    // (talks, awards) a single detail reads better as a plain line
+    #if details.len() == 1 and not strong { block(text(fill: muted)[#details.at(0)]) }
+    #if details.len() > 1 or (strong and details.len() == 1) { v(0.15em); text(fill: muted, list(..details)) }
   ]
 ]
 
-#let cv-skill(label, body) = block(below: 0.6em)[#text(weight: "semibold")[#label:] #body]
+#let cv-skill(label, body) = block(below: 0.6em)[#set par(leading: 0.45em); #text(weight: "semibold")[#label:] #body]
 
 #let cv-line(body) = block(below: 0.4em)[#body]
+
+// Referee: name, then role, affiliations and (private CV only) email
+#let cv-reference(name, lines) = block(below: 0.9em, breakable: false)[
+  // Same gap within a wrapped line as between lines, so each referee reads as one block
+  #set par(spacing: 0.45em, leading: 0.45em)
+  #set block(spacing: 0.4em)
+  #block(name)
+  #pad(right: date-column)[#lines.map(l => block(text(fill: muted, l))).join()]
+]
 
 // Each publication: title, then authors, venue and links in grey
 #let cv-publications(items) = enum(

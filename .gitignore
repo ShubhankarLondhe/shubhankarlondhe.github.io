@@ -9,3 +9,7 @@ _site/
 /_cv/cv.typ
 /_cv/cv_files/
 /_cv/*.pdf
+
+# Private CV data and output (make cv-private); never commit
+/data/cv-private.yml
+/private/

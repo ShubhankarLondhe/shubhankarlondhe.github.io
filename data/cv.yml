@@ -16,16 +16,13 @@ contact:
   - label: "Website"
     text: "shubhankarlondhe.github.io"
     url: "https://shubhankarlondhe.github.io"
-  - label: "GitHub"
-    text: "github.com/ShubhankarLondhe"
-    url: "https://github.com/ShubhankarLondhe"
 
 summary: >-
   Computational biologist (PhD, TU Munich and Helmholtz Munich) building
   methods to understand the effects of rare variants on human traits and
   disease, using large-scale biomedical data from the UK Biobank, All of Us,
   Genomics England, and Solve-RD. Experienced in training and evaluating
-  machine learning models in PyTorch, and in building workflows to process
+  machine learning models, and in building workflows to process
   biomedical datasets.
 
 # Work history, shown as "Experience" in the PDF. Bullets restate facts from
@@ -38,17 +35,19 @@ experience:
     start: "10.2022"
     end: "Present"
     details:
-      - "Developing methods to quantify rare-variant effects on disease and complex traits from patient-level and biobank-scale genetic data (UK Biobank, All of Us, Genomics England, Solve-RD)"
-      - "Developed workflows for converting biobank-scale genetic and phenotypic data to ML-friendly formats ([ukbb-utils-gagneur](https://github.com/gagneurlab/ukbb-utils-gagneur))"
-      - "Built [UKBBGym](https://github.com/gagneurlab/ukbbgym), a benchmark of variant effect predictors against phenotypes of ultra-rare variant carriers (first author, under review)"
-      - "Developed [FuncRVP](https://github.com/gagneurlab/funcRVP), a Bayesian rare-variant association model using functional gene embeddings (first author)"
-      - "Supervised 3 Master's theses and multiple graduate and undergraduate interns"
+      - "Built UKBBGym, a benchmark of variant scoring methods against phenotypes of ultra-rare variant carriers (first author, under review) · [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)"
+      - "Developed FuncRVP, which uses functional gene embeddings to improve gene discovery (first author) · [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3) · [Code](https://github.com/gagneurlab/funcRVP)"
+      - "Built applets and workflows converting UK Biobank whole-genome sequencing and phenotype data to ML-ready formats · [Code](https://github.com/gagneurlab/ukbb-utils-gagneur)"
+      - "Rare-disease diagnostics: co-developed a causal gene-prioritization model for the CAGI7 challenge; participated in two Solve-RD Solvathons · [Paper](https://doi.org/10.1038/s41588-025-02290-3)"
+      - "Mentoring junior PhD students; supervised 5 Master's theses and multiple interns"
   - title: "Visiting Researcher"
-    lead: "Dr. Konrad Karczewski and Dr. Hilary Finucane"
+    lead: "Dr. Hilary Finucane and Dr. Konrad Karczewski"
     org: "Broad Institute of MIT and Harvard"
     location: "Cambridge, USA"
     start: "06.2026"
     end: "08.2026"
+    details:
+      - "Extended the UKBBGym benchmark to the All of Us biobank"
 
 education:
   - title: "PhD, Computational Biology"
@@ -67,8 +66,8 @@ education:
     end: "05.2022"
     details:
       - "GPA 8.5/10"
-      - "Master's thesis (Dr. Annalisa Marsico): explainable AI for secondary-structure binding preferences of RNA-binding proteins"
-      - "Research assistant (Prof. M. S. Madhusudhan): deep learning on structural patterns of protein micro-environments"
+      - "Master's thesis (Dr. Annalisa Marsico): Explainable AI for secondary-structure binding preferences of RNA-binding proteins"
+      - "Research assistant (Prof. M. S. Madhusudhan): Deep learning on structural patterns of protein micro-environments"
 
 talks:
   - title: "ERDERA Science Club Series"
@@ -125,15 +124,15 @@ teaching:
     url: "https://www.cs.cit.tum.de/cmm/training-and-teaching/summer-term-2026/machine-learning-for-regulatory-genomics/"
 
 skills:
-  - title: "Biobank data"
+  - title: "Biobank platforms"
     details:
-      - "UK Biobank RAP (DNAnexus), All of Us Researcher Workbench, Genomics England Research Environment; patient-level and rare-disease cohort data, VCF"
-  - title: "Machine learning"
+      - "UK Biobank RAP (DNAnexus) · All of Us Researcher Workbench · Genomics England Research Environment"
+  - title: "Genomics"
     details:
-      - "Model training and evaluation in PyTorch, GPU computing"
-  - title: "Programming"
+      - "Ensembl VEP · PLINK · Hail · bcftools"
+  - title: "Tools"
     details:
-      - "Python, LaTeX (5+ years); R, Snakemake, SLURM, Git, bash (3+ years)"
+      - "Python · PyTorch · Polars · R · Snakemake · Git · bash · HPC clusters (SLURM) · GPU computing · LaTeX"
 
 grants:
   - title: "EMBO Scientific Exchange Grant #12502"
@@ -145,7 +144,7 @@ grants:
     start: "11.2019"
     details:
       - "Quantitative modelling of engineered synthetic operon systems in bacteria"
-  - title: "All India Rank 51, IISER Aptitude Test"
+  - title: "All India Rank 51 of 50,000+ high-achieving students, IISER Aptitude Test"
     start: "07.2017"
 
 languages:
@@ -156,10 +155,23 @@ languages:
   - title: "Hindi"
     details: ["Fluent"]
 
+# Names and roles only: the website and public PDF never show referee emails.
+# Emails go in the gitignored data/cv-private.yml (see cv-private.example.yml)
+# and are added by title for `make cv-private`.
+references:
+  - title: "Prof. Dr. Julien Gagneur"
+    details:
+      - "PhD supervisor"
+      - "Chair of Computational Molecular Medicine, Technical University of Munich · Group leader, Computational Health Center, Helmholtz Munich"
+  - title: "Dr. Hilary Finucane"
+    details:
+      - "Research exchange host"
+      - "Assistant Professor, Harvard Medical School · Assistant in Investigation, ATGU, MGH · Associate Member, The Broad Institute of MIT and Harvard"
+
 # Section order: pdf = the downloadable CV, web = the website CV page.
 layouts:
-  pdf: [summary, experience, skills, education, publications, talks, teaching, grants, languages]
-  web: [education, talks, grants, skills, languages]
+  pdf: [summary, experience, skills, education, publications, talks, teaching, grants, languages, references]
+  web: [education, talks, grants, skills, languages, references]
 
 # Name to bold in author lists (as it appears in data/publications.bib)
 me: "Londhe, Shubhankar"

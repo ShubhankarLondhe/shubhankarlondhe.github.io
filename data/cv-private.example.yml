@@ -1,0 +1,16 @@
+# Copy to data/cv-private.yml (gitignored) and fill in, then run `make cv-private`.
+# Top-level keys here replace the same key in data/cv.yml for the private PDF
+# only, except `references`, whose emails are added to the matching entries. The output goes to private/, which is never published.
+
+contact:
+  - label: "Email"
+    text: "your.email@example.com"
+    url: "mailto:your.email@example.com"
+  - label: "Phone"
+    text: "+49 ..."
+    url: "tel:+49..."
+
+# Referee emails, matched to the references in data/cv.yml by title
+references:
+  - title: "Prof. Dr. Example Referee"
+    email: "[referee@example.org](mailto:referee@example.org)"
