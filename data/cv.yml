@@ -18,12 +18,7 @@ contact:
     url: "https://shubhankarlondhe.github.io"
 
 summary: >-
-  Computational biologist (PhD, TU Munich and Helmholtz Munich) building
-  methods to understand the effects of rare variants on human traits and
-  disease, using large-scale biomedical data from the UK Biobank, All of Us,
-  Genomics England, and Solve-RD. Experienced in training and evaluating
-  machine learning models, and in building workflows to process
-  biomedical datasets.
+  Computational biologist (PhD, TU Munich and Helmholtz Munich) developing machine learning and statistical methods for variant effect prediction, rare-variant gene discovery, and rare-disease diagnostics, using data from the UK Biobank, All of Us, Genomics England, and Solve-RD. Experienced in training and evaluating machine learning models, and in building scalable workflows for biobank-scale data.
 
 # Work history, shown as "Experience" in the PDF. Bullets restate facts from
 # the education, publications, skills and teaching entries below.
@@ -55,7 +50,7 @@ education:
     location: "Munich, Germany"
     note: "Munich School for Data Science (MUDS) PhD program"
     start: "10.2022"
-    end: "Present"
+    end: "2027 (expected)"
     # Shown on the website CV page as well
     web-details:
       - "Member of the Munich School for Data Science (MUDS) PhD program"
