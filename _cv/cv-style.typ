@@ -50,8 +50,10 @@
 #let cv-summary(body) = block(below: 0.2em)[#body]
 
 #let cv-entry(title: [], date: [], lead: [], sub: [], details: (), strong: false) = block(below: 1.1em, breakable: false)[
-  #set par(spacing: 0.45em)
+  #set par(spacing: 0.45em, leading: 0.45em)
   #set block(spacing: 0.45em)
+  // Lines inside a bullet sit closer together than the bullets themselves
+  #set list(spacing: 0.7em)
   // Title and date on one text line, so parsers read them together
   #block[#{
       show link: set text(fill: ink)
@@ -63,14 +65,14 @@
     // Optional second line, e.g. the supervisor or host
     #if lead != [] { block(lead) }
     #if sub != [] { block(sub) }
-    // Details in grey; a single detail reads better as a plain line than as
-    // a one-item list
-    #if details.len() == 1 { block(text(fill: muted)[#details.at(0)]) }
-    #if details.len() > 1 { v(0.15em); text(fill: muted, list(..details)) }
+    // Details in grey. Experience and education always use bullets; elsewhere
+    // (talks, awards) a single detail reads better as a plain line
+    #if details.len() == 1 and not strong { block(text(fill: muted)[#details.at(0)]) }
+    #if details.len() > 1 or (strong and details.len() == 1) { v(0.15em); text(fill: muted, list(..details)) }
   ]
 ]
 
-#let cv-skill(label, body) = block(below: 0.6em)[#text(weight: "semibold")[#label:] #body]
+#let cv-skill(label, body) = block(below: 0.6em)[#set par(leading: 0.45em); #text(weight: "semibold")[#label:] #body]
 
 #let cv-line(body) = block(below: 0.4em)[#body]
 

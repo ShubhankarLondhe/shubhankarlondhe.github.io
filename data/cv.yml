@@ -35,16 +35,19 @@ experience:
     start: "10.2022"
     end: "Present"
     details:
-      - "UKBBGym: benchmarking variant scoring methods against phenotypes of ultra-rare variant carriers (first author, under review) · [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)"
-      - "FuncRVP: using functional gene embeddings to improve gene discovery (first author) · [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3) · [Code](https://github.com/gagneurlab/funcRVP)"
-      - "Applets and workflows converting UK Biobank whole-genome sequencing and phenotype data to ML-ready formats · [Code](https://github.com/gagneurlab/ukbb-utils-gagneur)"
-      - "Mentoring junior PhD students, supervised 5 Master's theses and multiple interns"
+      - "Built UKBBGym, a benchmark of variant scoring methods against phenotypes of ultra-rare variant carriers (first author, under review) · [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)"
+      - "Developed FuncRVP, which uses functional gene embeddings to improve gene discovery (first author) · [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3) · [Code](https://github.com/gagneurlab/funcRVP)"
+      - "Built applets and workflows converting UK Biobank whole-genome sequencing and phenotype data to ML-ready formats · [Code](https://github.com/gagneurlab/ukbb-utils-gagneur)"
+      - "Rare-disease diagnosis: developed a causal gene-prioritization model for the CAGI7 challenge; participated in two Solve-RD Solvathons · [Paper](https://doi.org/10.1038/s41588-025-02290-3)"
+      - "Mentoring junior PhD students; supervised 5 Master's theses and multiple interns"
   - title: "Visiting Researcher"
     lead: "Dr. Hilary Finucane and Dr. Konrad Karczewski"
     org: "Broad Institute of MIT and Harvard"
     location: "Cambridge, USA"
     start: "06.2026"
     end: "08.2026"
+    details:
+      - "Extended the UKBBGym benchmark to the All of Us biobank"
 
 education:
   - title: "PhD, Computational Biology"
@@ -121,15 +124,15 @@ teaching:
     url: "https://www.cs.cit.tum.de/cmm/training-and-teaching/summer-term-2026/machine-learning-for-regulatory-genomics/"
 
 skills:
-  - title: "Biobank data"
+  - title: "Biobank platforms"
     details:
-      - "UK Biobank RAP (DNAnexus), All of Us Researcher Workbench, Genomics England Research Environment; patient-level genotype (VCF) and phenotype data from biobanks and rare-disease cohorts"
-  - title: "Machine learning"
+      - "UK Biobank RAP (DNAnexus) · All of Us Researcher Workbench · Genomics England Research Environment"
+  - title: "Genomics"
     details:
-      - "Model training and evaluation in PyTorch, GPU computing"
-  - title: "Programming"
+      - "Ensembl VEP · PLINK · Hail · bcftools"
+  - title: "Tools"
     details:
-      - "Python, LaTeX (5+ years); R, Snakemake, SLURM, Git, bash (3+ years)"
+      - "Python · PyTorch · Polars · R · Snakemake · Git · bash · HPC clusters (SLURM) · GPU computing · LaTeX"
 
 grants:
   - title: "EMBO Scientific Exchange Grant #12502"
