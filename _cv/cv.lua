@@ -43,9 +43,27 @@ end
 local cv_cache
 local function cv_data()
   if not cv_cache then
-    local yaml = read_file(quarto.utils.resolve_path("../data/cv.yml"))
-    local doc = pandoc.read("---\n" .. yaml .. "\n---\n", "markdown")
-    cv_cache = meta_to_lua(doc.meta)
+    local function load(path)
+      local doc = pandoc.read("---\n" .. read_file(path) .. "\n---\n", "markdown")
+      return meta_to_lua(doc.meta)
+    end
+    cv_cache = load(quarto.utils.resolve_path("../data/cv.yml"))
+    -- Private build (make cv-private): top-level keys in the gitignored
+    -- data/cv-private.yml replace the public ones, e.g. contact or references
+    if os.getenv("CV_PRIVATE") == "1" then
+      for k, v in pairs(load(quarto.utils.resolve_path("../data/cv-private.yml"))) do
+        if k == "references" then
+          -- Only add emails to the public entries, matched by title
+          for _, priv in ipairs(v) do
+            for _, pub in ipairs(cv_cache.references or {}) do
+              if pub.title == priv.title then pub.email = priv.email end
+            end
+          end
+        else
+          cv_cache[k] = v
+        end
+      end
+    end
   end
   return cv_cache
 end
@@ -228,6 +246,11 @@ local function web_section(name)
     out[#out + 1] = table.concat(langs, ", ") .. "\n"
   elseif name == "summary" then
     out[#out + 1] = cv.summary .. "\n"
+  elseif name == "references" then
+    for _, r in ipairs(items) do
+      local d = r.details or {}
+      out[#out + 1] = web_row(d[1] or "", { "**" .. r.title .. "**", table.unpack(d, 2) })
+    end
   else
     for _, e in ipairs(items) do
       local lines, left
@@ -335,6 +358,15 @@ local function pdf_section(name)
       langs[#langs + 1] = l.title .. ((l.details and l.details[1]) and (" (" .. l.details[1]:lower() .. ")") or "")
     end
     blocks[#blocks + 1] = raw("#cv-line(" .. ty(table.concat(langs, ", ")) .. ")")
+    return blocks
+  end
+  if name == "references" then
+    for _, r in ipairs(cv.references or {}) do
+      local lines = {}
+      for _, d in ipairs(r.details or {}) do lines[#lines + 1] = ty(d) end
+      if r.email then lines[#lines + 1] = ty(r.email) end
+      blocks[#blocks + 1] = raw("#cv-reference(" .. ty(r.title) .. ", (" .. table.concat(lines, ", ") .. ",))")
+    end
     return blocks
   end
   if name == "skills" then

@@ -74,6 +74,15 @@
 
 #let cv-line(body) = block(below: 0.4em)[#body]
 
+// Referee: name, then role, affiliations and (private CV only) email
+#let cv-reference(name, lines) = block(below: 0.9em, breakable: false)[
+  // Same gap within a wrapped line as between lines, so each referee reads as one block
+  #set par(spacing: 0.45em, leading: 0.45em)
+  #set block(spacing: 0.4em)
+  #block(name)
+  #pad(right: date-column)[#lines.map(l => block(text(fill: muted, l))).join()]
+]
+
 // Each publication: title, then authors, venue and links in grey
 #let cv-publications(items) = enum(
   spacing: 1.0em,
