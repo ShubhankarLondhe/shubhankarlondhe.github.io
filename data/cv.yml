@@ -38,7 +38,7 @@ experience:
       - "Built UKBBGym, a benchmark of variant scoring methods against phenotypes of ultra-rare variant carriers (first author, under review) · [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)"
       - "Developed FuncRVP, which uses functional gene embeddings to improve gene discovery (first author) · [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3) · [Code](https://github.com/gagneurlab/funcRVP)"
       - "Built applets and workflows converting UK Biobank whole-genome sequencing and phenotype data to ML-ready formats · [Code](https://github.com/gagneurlab/ukbb-utils-gagneur)"
-      - "Rare-disease diagnosis: co-developed a causal gene-prioritization model for the CAGI7 challenge; participated in two Solve-RD Solvathons · [Paper](https://doi.org/10.1038/s41588-025-02290-3)"
+      - "Rare-disease diagnostics: co-developed a causal gene-prioritization model for the CAGI7 challenge; participated in two Solve-RD Solvathons · [Paper](https://doi.org/10.1038/s41588-025-02290-3)"
       - "Mentoring junior PhD students; supervised 5 Master's theses and multiple interns"
   - title: "Visiting Researcher"
     lead: "Dr. Hilary Finucane and Dr. Konrad Karczewski"
