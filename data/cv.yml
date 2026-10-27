@@ -166,7 +166,7 @@ references:
 # Section order: pdf = the downloadable CV, web = the website CV page.
 layouts:
   pdf: [summary, experience, skills, education, publications, talks, teaching, grants, languages, references]
-  web: [education, talks, grants, skills, languages, references]
+  web: [education, talks, grants, skills, languages]
 
 # Name to bold in author lists (as it appears in data/publications.bib)
 me: "Londhe, Shubhankar"
