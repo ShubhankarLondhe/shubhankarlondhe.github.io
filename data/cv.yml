@@ -37,7 +37,7 @@ experience:
     details:
       - "UKBBGym: benchmarking variant scoring methods against phenotypes of ultra-rare variant carriers (first author, under review) · [Preprint](https://www.biorxiv.org/content/10.64898/2026.10.01.755962v1) · [Code](https://github.com/gagneurlab/ukbbgym)"
       - "FuncRVP: using functional gene embeddings to improve gene discovery (first author) · [Preprint](https://www.biorxiv.org/content/10.1101/2024.07.22.604535v3) · [Code](https://github.com/gagneurlab/funcRVP)"
-      - "Applets and workflows converting UK Biobank genetic and phenotypic data to ML-ready formats · [Code](https://github.com/gagneurlab/ukbb-utils-gagneur)"
+      - "Applets and workflows converting UK Biobank whole-genome sequencing and phenotype data to ML-ready formats · [Code](https://github.com/gagneurlab/ukbb-utils-gagneur)"
       - "Mentoring junior PhD students, supervised 5 Master's theses and multiple interns"
   - title: "Visiting Researcher"
     lead: "Dr. Hilary Finucane and Dr. Konrad Karczewski"
@@ -123,7 +123,7 @@ teaching:
 skills:
   - title: "Biobank data"
     details:
-      - "UK Biobank RAP (DNAnexus), All of Us Researcher Workbench, Genomics England Research Environment; patient-level and rare-disease cohort data, VCF"
+      - "UK Biobank RAP (DNAnexus), All of Us Researcher Workbench, Genomics England Research Environment; patient-level genotype (VCF) and phenotype data from biobanks and rare-disease cohorts"
   - title: "Machine learning"
     details:
       - "Model training and evaluation in PyTorch, GPU computing"
