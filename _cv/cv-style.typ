@@ -61,7 +61,9 @@
     } #h(1fr) #text(fill: muted, size: 0.95em)[#date]]
   // Everything below the title stops short of the date column, so long lines
   // wrap instead of running under the dates
-  #pad(right: date-column)[
+  // Reserve at least the date column, or more if this entry's date is wider
+  // (e.g. "Oct 2022 – 2027 (expected)")
+  #context pad(right: calc.max(date-column.to-absolute(), (measure(text(size: 0.95em)[#date]).width + 1.2em).to-absolute()))[
     // Optional second line, e.g. the supervisor or host
     #if lead != [] { block(lead) }
     #if sub != [] { block(sub) }
