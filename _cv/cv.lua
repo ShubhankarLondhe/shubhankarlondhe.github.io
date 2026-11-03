@@ -361,12 +361,14 @@ local function pdf_section(name)
     return blocks
   end
   if name == "references" then
+    local items = {}
     for _, r in ipairs(cv.references or {}) do
       local lines = {}
       for _, d in ipairs(r.details or {}) do lines[#lines + 1] = ty(d) end
       if r.email then lines[#lines + 1] = ty(r.email) end
-      blocks[#blocks + 1] = raw("#cv-reference(" .. ty(r.title) .. ", (" .. table.concat(lines, ", ") .. ",))")
+      items[#items + 1] = "(" .. ty(r.title) .. ", (" .. table.concat(lines, ", ") .. ",))"
     end
+    blocks[#blocks + 1] = raw("#cv-references((" .. table.concat(items, ", ") .. ",))")
     return blocks
   end
   if name == "skills" then
