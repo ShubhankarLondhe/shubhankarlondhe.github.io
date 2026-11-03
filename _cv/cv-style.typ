@@ -84,8 +84,15 @@
   #set par(spacing: 0.45em, leading: 0.45em)
   #set block(spacing: 0.4em)
   #block(name)
-  #pad(right: date-column)[#lines.map(l => block(text(fill: muted, l))).join()]
+  #lines.map(l => block(text(fill: muted, l))).join()
 ]
+
+// Referees side by side, two per row
+#let cv-references(items) = grid(
+  columns: (1fr, 1fr),
+  column-gutter: 1.5em,
+  ..items.map(((name, lines)) => cv-reference(name, lines)),
+)
 
 // Each publication: title, then authors, venue and links in grey
 #let cv-publications(items) = enum(
